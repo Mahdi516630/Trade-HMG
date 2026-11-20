@@ -369,7 +369,159 @@
 "HMG peut-il combiner conseil d’implantation, sourcing et logistique ?": "Can HMG combine set-up consulting, sourcing and logistics?",
 "Oui. En tant qu’interlocuteur unique à Djibouti, HMG coordonne votre implantation tout en organisant vos importations par notre pôle Logistique & Transport et vos approvisionnements initiaux via notre pôle Sourcing & Négoce.": "Yes. As a single point of contact in Djibouti, HMG coordinates your set-up while managing your imports through our Logistics & Transport division and your initial procurement via our Sourcing & Trading division.",
 "Quelles informations préparer avant un premier échange ?": "What information should I prepare before an initial discussion?",
-"Indiquez l’activité envisagée, votre pays d’origine, le stade du projet (réflexion, préparation ou démarrage), le calendrier souhaité et les domaines d’accompagnement recherchés via le formulaire en ligne ou sur WhatsApp.": "Share your planned activity, country of origin, project stage (planning, preparation or launch), target timeline and the areas of support required via our online form or on WhatsApp."
+"Indiquez l’activité envisagée, votre pays d’origine, le stade du projet (réflexion, préparation ou démarrage), le calendrier souhaité et les domaines d’accompagnement recherchés via le formulaire en ligne ou sur WhatsApp.": "Share your planned activity, country of origin, project stage (planning, preparation or launch), target timeline and the areas of support required via our online form or on WhatsApp.",
+"Guides": "Guides",
+"Guides opérationnels": "Operational Guides",
+"Guides opérationnels : Corridor Djibouti–Éthiopie, Incoterms & Sourcing | HMG": "Operational Guides: Djibouti–Ethiopia Corridor, Incoterms & Sourcing | HMG",
+"Guides opérationnels : Corridor Djibouti–Éthiopie, Incoterms & Spécifications Sourcing": "Operational Guides: Djibouti–Ethiopia Corridor, Incoterms & Sourcing Specifications",
+"Référentiel pratique sur le fret maritime au Port de Djibouti, le transit vers l’Éthiopie, les Incoterms CIF/CFR/FOB et les spécifications acier et ciment.": "Practical reference on sea freight at the Port of Djibouti, transit to Ethiopia, CIF/CFR/FOB Incoterms, and steel and cement specifications.",
+"Terminal portuaire de Djibouti et navire porte-conteneurs": "Port of Djibouti terminal and container ship",
+"Référentiel B2B · Djibouti & Éthiopie": "B2B Reference · Djibouti & Ethiopia",
+"Guides pratiques": "Practical guides for",
+"logistique, sourcing & implantation.": "logistics, sourcing & business setup.",
+"Données de référence sur le passage portuaire au Port de Djibouti, le corridor routier vers l’Éthiopie, les conditions Incoterms et les cahiers des charges industriels.": "Reference data on Port of Djibouti clearance, the road corridor to Ethiopia, Incoterms rules, and industrial specifications.",
+"Mise à jour : novembre 2026": "Updated: November 2026",
+"Sommaire des guides": "Guides table of contents",
+"01. Corridor & Cargaisons": "01. Corridor & Cargo",
+"02. Incoterms FOB / CFR / CIF": "02. Incoterms FOB / CFR / CIF",
+"03. Spécifications Acier & Ciment": "03. Steel & Cement Specs",
+"04. Implantation à Djibouti": "04. Djibouti Business Setup",
+"Guide 01 · Fret & Transit": "Guide 01 · Freight & Transit",
+"Corridor Djibouti–Éthiopie : formats de cargaison et documents requis": "Djibouti–Ethiopia Corridor: Cargo Formats & Required Documents",
+"Chaque expédition depuis le Port de Djibouti suit cinq jalons coordonnés : pré-alerte documentaire, opérations portuaires, formalités avec partenaires transitaires agréés, mise à quai routier et livraison finale.": "Every shipment through the Port of Djibouti follows five coordinated milestones: pre-arrival document check, port operations, clearance with licensed transit partners, truck loading, and final site delivery.",
+"Pré-alerte BL & facture avant escale": "Pre-arrival BL & invoice check",
+"Déchargement portuaire & pointage": "Port unloading & tally",
+"Transit & douane via partenaires agréés": "Transit & customs via licensed partners",
+"Mise sur camion ou plateau routier": "Loading onto truck or flatbed",
+"Livraison site & suivi d’avancement": "Site delivery & progress tracking",
+"Format d’expédition": "Shipment Format",
+"Profil de marchandise": "Cargo Profile",
+"Équipement & manutention": "Equipment & Handling",
+"Documents de base exigés": "Required Core Documents",
+"Conteneur FCL 20’": "20’ FCL Container",
+"Charges denses : acier court, pièces lourdes, sacs palettisés": "Dense cargo: short steel bars, heavy parts, palletized sacks",
+"Porte-conteneur routier standard, scellé d’origine": "Standard container chassis truck, original seal",
+"Bill of Lading, Facture commerciale, Liste de colisage, Certificat d’origine": "Bill of Lading, Commercial Invoice, Packing List, Certificate of Origin",
+"Conteneur FCL 40’": "40’ FCL Container",
+"Volumes élevés, marchandises palettisées, équipements longs": "High volumes, palletized cargo, long equipment",
+"Châssis 40’ / High Cube, grue ou chariot élévateur à destination": "40’ / High Cube chassis, crane or forklift at destination",
+"Groupage (LCL)": "Groupage (LCL)",
+"Lots partiels, pièces détachées, outillages et fournitures": "Partial lots, spare parts, tools and industrial supplies",
+"Dépotage portuaire ou zone dédiée puis livraison ciblée": "Port or bonded stripping followed by targeted delivery",
+"House/Master BL, Facture détaillée par colis, Liste de colisage": "House/Master BL, Itemized Invoice, Packing List",
+"Vrac (Bulk)": "Bulk Cargo",
+"Tonnages importants : ciment en vrac, granulats, matières premières": "High tonnages: bulk cement, aggregates, raw materials",
+"Trémies, bennes ou silos portuaires selon cadences navire": "Hoppers, dump trucks or port silos based on vessel discharge rate",
+"Charte-partie / BL vrac, Certificat de qualité et poids, Déclaration préalable": "Charter Party / Bulk BL, Quality & Weight Certificate, Pre-declaration",
+"Conventionnel (Breakbulk)": "Breakbulk Cargo",
+"Barres d’acier 12 m, tubes, engins, véhicules, caisses hors gabarit": "12 m steel bars, pipes, machinery, vehicles, out-of-gauge crates",
+"Plateaux renforcés, grutage portuaire, arrimage spécialisé": "Heavy flatbed trailers, port cranes, specialized lashing",
+"BL conventionnel, Plan de levage/dimensions, Certificats techniques": "Breakbulk BL, Lifting/Dimension Plan, Technical Certificates",
+"Important : les activités réglementées de transit et de dédouanement à Djibouti sont exécutées exclusivement par des partenaires commissionnaires agréés coordonnés par HMG.": "Important: regulated transit and customs clearance activities in Djibouti are carried out exclusively by duly licensed forwarding partners coordinated by HMG.",
+"Guide 02 · Sourcing & Négoce": "Guide 02 · Sourcing & Trading",
+"Comparatif des conditions commerciales : FOB, CFR, CIF et Réception Djibouti": "Commercial Terms Comparison: FOB, CFR, CIF and Djibouti Delivery",
+"Le choix de l’Incoterm détermine qui paie le fret principal, qui supporte le risque pendant la traversée maritime et comment sécuriser la réception à Djibouti.": "Choosing the right Incoterm defines who pays main ocean freight, who bears transit risk at sea, and how delivery in Djibouti is secured.",
+"Condition négociée": "Negotiated Term",
+"Fret maritime principal": "Main Ocean Freight",
+"Assurance cargo": "Cargo Insurance",
+"Transfert du risque": "Risk Transfer",
+"Usage recommandé à Djibouti": "Recommended Use in Djibouti",
+"FOB (Free On Board)": "FOB (Free On Board)",
+"Organisé et payé par l’acheteur / HMG": "Arranged and paid by buyer / HMG",
+"À la charge de l’acheteur": "Arranged by buyer",
+"À bord du navire au port d’embarquement": "On board vessel at port of shipment",
+"Maîtriser le taux de fret et grouper plusieurs fournisseurs": "Control freight rates and consolidate multiple suppliers",
+"CFR (Cost & Freight)": "CFR (Cost & Freight)",
+"Inclus jusqu’au Port de Djibouti": "Included to Port of Djibouti",
+"Souscrite par l’acheteur": "Covered by buyer",
+"Acheteurs disposant déjà d’une police d’assurance transport": "Buyers with an active marine cargo insurance policy",
+"CIF (Cost, Insurance & Freight)": "CIF (Cost, Insurance & Freight)",
+"Incluse par le vendeur (couverture minimale)": "Included by seller (minimum coverage)",
+"Offre maritime complète port à port pour commandes industrielles": "Complete port-to-port ocean offer for industrial orders",
+"Coordonné de bout en bout via HMG": "End-to-end coordination via HMG",
+"Selon contrat commercial convenu": "Per agreed commercial contract",
+"À la livraison convenue à Djibouti": "Upon agreed handover in Djibouti",
+"Entreprises souhaitant un interlocuteur unique jusqu’à réception": "Companies seeking a single point of contact to receipt",
+"Guide 03 · Cahier des charges": "Guide 03 · Technical Specs",
+"Informations clés pour obtenir un devis précis sous 24 h ouvrées": "Key Information to Get an Accurate Quote Within 24 Business Hours",
+"Plus vos spécifications initiales sont complètes, plus l’offre commerciale de sourcing ou de transport est rapide et exacte.": "The more complete your initial specifications are, the faster and more accurate our sourcing or transport offer will be.",
+"Aciers & sidérurgie": "Steel & Metallurgy",
+"Type :": "Type:",
+"Barres d’acier, fers à béton HA, tubes, profilés, billettes, bobines": "Steel bars, HA rebar, pipes, structural profiles, billets, coils",
+"Dimensions :": "Dimensions:",
+"Diamètre (mm), épaisseur, longueur standard (6 m / 12 m)": "Diameter (mm), wall thickness, standard length (6 m / 12 m)",
+"Qualité :": "Grade:",
+"Nuance et norme de fabrication exigée sur chantier": "Steel grade and manufacturing standard required on site",
+"Volume :": "Volume:",
+"Tonnage total et conditionnement (fardeaux / conteneur / breakbulk)": "Total tonnage and packaging (bundles / container / breakbulk)",
+"Ciment & matériaux": "Cement & Building Materials",
+"Format :": "Format:",
+"Ciment en sacs palettisés, big-bags ou ciment en vrac": "Palletized bagged cement, jumbo bags, or bulk cement",
+"Granulats :": "Aggregates:",
+"Calibre, usage (béton, voirie, infrastructure) et tonnage": "Sizing, application (concrete, roadworks, civil) and tonnage",
+"Logistique :": "Logistics:",
+"Rythme de livraison souhaité sur chantier ou zone franche": "Desired delivery schedule to site or free zone",
+"Condition :": "Terms:",
+"FOB, CFR, CIF ou livraison finale à Djibouti / Éthiopie": "FOB, CFR, CIF or final delivery in Djibouti / Ethiopia",
+"Fûts, outillages & pièces": "Drums, Tools & Spare Parts",
+"Produits :": "Products:",
+"Fûts industriels, outillage d’atelier, vannes, brides, roulements": "Industrial steel drums, workshop tools, valves, flanges, bearings",
+"Identification :": "Identification:",
+"Référence constructeur, plan coté, photo ou fiche technique": "OEM part number, technical drawing, photo or datasheet",
+"Quantité :": "Quantity:",
+"Unités, lots ou approvisionnement récurrent mensuel": "Units, batches or recurring monthly supply",
+"Délai :": "Lead time:",
+"Urgence (fret aérien) ou planification maritime standard": "Urgent (air freight) or scheduled sea freight",
+"Guide 04 · Implantation": "Guide 04 · Business Setup",
+"Checklist en 5 étapes pour démarrer une activité à Djibouti.": "5-Step Checklist to Launch Business Operations in Djibouti.",
+"Coordination opérationnelle de l’étude initiale jusqu’au lancement effectif des approvisionnements et opérations.": "Operational coordination from initial scoping through active procurement and business launch.",
+"Cadrage du projet": "Project scoping",
+"Définition de l’activité envisagée, du calendrier, du modèle opérationnel et des besoins logistiques associés.": "Defining planned activity, timeline, operating model, and associated logistics needs.",
+"Dossiers & démarches": "Files & procedures",
+"Structuration des pièces administratives et suivi rigoureux des étapes réglementaires liées au projet.": "Structuring administrative documentation and tracking regulatory milestones.",
+"Locaux & chaîne d’achat": "Premises & supply chain",
+"Identification des locaux, entrepôts, fournisseurs initiaux et flux d’importation via le Port de Djibouti.": "Identifying premises, warehouses, initial suppliers, and import flows via the Port of Djibouti.",
+"Développement marché": "Market development",
+"Repérage d’opportunités commerciales locales à Djibouti et sur l’axe économique Djibouti–Éthiopie.": "Identifying commercial opportunities in Djibouti and along the Djibouti–Ethiopia corridor.",
+"Suivi des échéances": "Milestone tracking",
+"Pilotage continu des jalons, échéanciers et livrables convenus avec un point de contact unique.": "Continuous monitoring of agreed milestones, schedules, and deliverables with one point of contact.",
+"Réponses rapides sur les opérations à Djibouti.": "Quick answers on operations in Djibouti.",
+"Procédures documentaires, Incoterms, choix du conteneur et spécifications techniques.": "Documentary procedures, Incoterms, container selection, and technical specifications.",
+"Quels documents sont indispensables avant l’arrivée d’un navire au Port de Djibouti ?": "Which documents are essential before a vessel arrives at the Port of Djibouti?",
+"Les quatre documents de base à préparer avant l’escale sont le connaissement maritime (Bill of Lading), la facture commerciale, la liste de colisage détaillée (poids net/brut, colisage, dimensions) et le certificat d’origine, complétés le cas échéant par les certificats d’assurance ou d’inspection.": "The four core documents to prepare prior to vessel call are the Bill of Lading (BL), Commercial Invoice, detailed Packing List (net/gross weight, package count, dimensions), and Certificate of Origin, supplemented where needed by insurance or inspection certificates.",
+"Quelle différence entre FOB, CFR, CIF et Réception Djibouti pour un acheteur ?": "What is the difference between FOB, CFR, CIF and Djibouti Delivery for a buyer?",
+"En FOB, l’acheteur organise le fret maritime et l’assurance dès l’embarquement au port d’origine. En CFR, le fournisseur paie le fret maritime jusqu’à Djibouti sans assurance. En CIF, le fret maritime et l’assurance sont inclus jusqu’au port de Djibouti. En Réception Djibouti, HMG coordonne l’approvisionnement, l’acheminement et la mise à disposition convenue à Djibouti.": "Under FOB, the buyer arranges main sea freight and insurance from loading at origin. Under CFR, the seller pays sea freight to Djibouti without insurance. Under CIF, both sea freight and minimum cargo insurance are included to Djibouti Port. Under Djibouti Delivery, HMG coordinates sourcing, shipping, and handover in Djibouti.",
+"Comment choisir entre conteneur 20 pieds, 40 pieds, vrac (bulk) et breakbulk ?": "How to choose between a 20ft container, 40ft container, bulk, and breakbulk?",
+"Le conteneur 20 pieds convient aux charges denses (aciers courts, matériel lourd, ciment palettisé), le 40 pieds aux volumes importants ou marchandises palettisées légères, le groupage (LCL) aux petits lots, le vrac (bulk) aux tonnages élevés sans emballage, et le breakbulk aux barres longues, tubes, machines et colis hors gabarit.": "A 20ft container suits dense cargo (short steel, heavy parts, palletized cement), a 40ft fits high volumes or lighter palletized goods, LCL consolidation suits smaller lots, bulk suits large unpackaged tonnages, and breakbulk fits long bars, pipes, machinery, and out-of-gauge crates.",
+"Quelles précisions techniques accélèrent un chiffrage acier ou ciment ?": "Which technical details speed up a steel or cement quote?",
+"Pour les aciers : indiquez la nuance, le diamètre, la longueur (ex. 12 m), la norme souhaitée et le tonnage total. Pour le ciment et les matériaux : précisez le type de conditionnement (sacs palettisés, big-bags ou vrac), la quantité en tonnes, le port ou site de livraison et le délai cible.": "For steel: specify grade, diameter, length (e.g. 12 m), required standard, and total tonnage. For cement and aggregates: specify packaging (palletized bags, jumbo bags or bulk), quantity in tonnes, destination port or site, and target delivery date.",
+"Besoin d’un chiffrage transport, sourcing ou accompagnement ?": "Need a quote for transport, sourcing, or setup support?",
+"Page introuvable (404) | HMG Global Business Solutions": "Page Not Found (404) | HMG Global Business Solutions",
+"La page demandée n’existe pas ou a été déplacée. Retrouvez nos services de logistique, sourcing et conseil à Djibouti.": "The requested page does not exist or has been moved. Explore our logistics, sourcing, and consulting services in Djibouti.",
+"Cette page est introuvable.": "This page could not be found.",
+"L’adresse demandée n’existe pas ou a été déplacée. Accédez directement à nos pôles d’activité, nos guides opérationnels ou notre formulaire de devis.": "The requested URL does not exist or has been moved. Go directly to our business poles, operational guides, or quote form.",
+"Forme juridique : Société à Responsabilité Limitée (SARL) de droit djiboutien — Justificatifs d’immatriculation ODPIC disponibles sur demande officielle": "Legal form: Limited Liability Company (SARL) under Djiboutian law — ODPIC registration records available upon official request",
+"Hébergement & sécurité": "Hosting & Security",
+"Hébergement : Infrastructure cloud sécurisée HTTPS (domaines hmgglobalgroup.com, distribution redondante et chiffrement TLS actif).": "Hosting: Secure HTTPS cloud infrastructure (hmgglobalgroup.com domains, redundant delivery and active TLS encryption).",
+"Protection des données & demandes de devis": "Data Protection & Quote Requests",
+"Les informations transmises via les formulaires de devis sont destinées exclusivement au traitement de votre demande commerciale par HMG Global Business Solutions SARL (contact@hmgglobalgroup.com · hamza@hmgglobalgroup.com) et ne sont ni vendues ni cédées à des tiers commerciaux. Vous disposez d’un droit d’accès, de rectification et de suppression sur simple demande écrite.": "Information submitted via our quote forms is used exclusively by HMG Global Business Solutions SARL (contact@hmgglobalgroup.com · hamza@hmgglobalgroup.com) to process your commercial request and is never sold or transferred to third-party marketers. You may request access, correction, or deletion in writing.",
+"Comment organiser l’acheminement d’une cargaison sur le corridor Djibouti–Éthiopie": "How to organize cargo transport on the Djibouti–Ethiopia corridor",
+"Étapes opérationnelles de réception au Port de Djibouti jusqu’à la livraison sur site en Éthiopie ou à Djibouti.": "Operational steps from reception at the Port of Djibouti to final site delivery in Ethiopia or Djibouti.",
+"Pré-alerte documentaire": "Pre-arrival documentary check",
+"Vérification avant arrivée navire : connaissement maritime (Bill of Lading), facture commerciale, liste de colisage et certificats d’origine.": "Pre-vessel arrival verification: Bill of Lading, commercial invoice, packing list, and certificates of origin.",
+"Suivi du déchargement au terminal à conteneurs, vrac ou conventionnel du Port de Djibouti et gestion des relâches.": "Monitoring discharge at the Port of Djibouti container, bulk, or breakbulk terminal and port release handling.",
+"Transit et formalités agréées": "Licensed transit & formalities",
+"Coordination des formalités douanières et de transit avec nos partenaires dûment agréés à Djibouti.": "Coordination of customs and transit procedures through duly licensed partners in Djibouti.",
+"Chargement et transport routier": "Loading & road transport",
+"Mise à disposition des camions porte-conteneurs ou plateaux conventionnels pour le corridor Djibouti–Éthiopie.": "Dispatch of container chassis or flatbed trucks for the Djibouti–Ethiopia corridor.",
+"Livraison sur site et preuve de réception": "Site delivery & proof of receipt",
+"Acheminement jusqu’à l’entrepôt, chantier, zone industrielle ou zone franche convenue avec suivi de livraison.": "Transport to the agreed warehouse, site, industrial zone, or free zone with delivery tracking.",
+"HMG Global Business Solutions SARL prend en charge vos besoins en transport, logistique, sourcing & négoce et conseil d’implantation à Djibouti et sur le corridor Djibouti–Éthiopie.": "HMG Global Business Solutions SARL handles your transport, logistics, sourcing & trading, and business set-up consulting needs in Djibouti and along the Djibouti–Ethiopia corridor.",
+"Services et solutions HMG Global Business Solutions": "HMG Global Business Solutions Services and Solutions",
+"Prestations logistiques et transport à Djibouti": "Logistics and Transport Services in Djibouti",
+"Solutions de sourcing et négoce international": "International Sourcing and Trading Solutions",
+"Conseil et accompagnement à l’implantation à Djibouti": "Business Set-Up Consulting and Support in Djibouti",
+"E-mail": "Email"
 };
   var ZH = {
 "Accueil": "首页",
@@ -742,16 +894,169 @@
 "HMG peut-il combiner conseil d’implantation, sourcing et logistique ?": "HMG 能否将落地咨询、采购与物流整合为一体？",
 "Oui. En tant qu’interlocuteur unique à Djibouti, HMG coordonne votre implantation tout en organisant vos importations par notre pôle Logistique & Transport et vos approvisionnements initiaux via notre pôle Sourcing & Négoce.": "可以。作为您在吉布提的唯一对接方，HMG 在协调企业落地的同时，还可依托物流与运输板块安排进口货运，并通过采购与贸易板块组织初期物资供应。",
 "Quelles informations préparer avant un premier échange ?": "初次沟通前建议准备哪些信息？",
-"Indiquez l’activité envisagée, votre pays d’origine, le stade du projet (réflexion, préparation ou démarrage), le calendrier souhaité et les domaines d’accompagnement recherchés via le formulaire en ligne ou sur WhatsApp.": "请通过在线表单或 WhatsApp 说明拟开展的业务、来源国、项目阶段（构思、筹备或启动）、预期时间表以及所需的支持领域。"
+"Indiquez l’activité envisagée, votre pays d’origine, le stade du projet (réflexion, préparation ou démarrage), le calendrier souhaité et les domaines d’accompagnement recherchés via le formulaire en ligne ou sur WhatsApp.": "请通过在线表单或 WhatsApp 说明拟开展的业务、来源国、项目阶段（构思、筹备或启动）、预期时间表以及所需的支持领域。",
+"Guides": "运营指南",
+"Guides opérationnels": "运营与实操指南",
+"Guides opérationnels : Corridor Djibouti–Éthiopie, Incoterms & Sourcing | HMG": "运营指南：吉布提—埃塞俄比亚走廊、贸易术语与采购规格 | HMG",
+"Guides opérationnels : Corridor Djibouti–Éthiopie, Incoterms & Spécifications Sourcing": "运营指南：吉布提—埃塞俄比亚走廊、国际贸易术语与采购规格",
+"Référentiel pratique sur le fret maritime au Port de Djibouti, le transit vers l’Éthiopie, les Incoterms CIF/CFR/FOB et les spécifications acier et ciment.": "关于吉布提港海运、往埃塞俄比亚过境运输、CIF/CFR/FOB 贸易术语及钢材水泥采购规格的实用参考指南。",
+"Terminal portuaire de Djibouti et navire porte-conteneurs": "吉布提港码头与集装箱船",
+"Référentiel B2B · Djibouti & Éthiopie": "B2B 参考指南 · 吉布提与埃塞俄比亚",
+"Guides pratiques": "实操参考指南：",
+"logistique, sourcing & implantation.": "物流、采购与企业落地。",
+"Données de référence sur le passage portuaire au Port de Djibouti, le corridor routier vers l’Éthiopie, les conditions Incoterms et les cahiers des charges industriels.": "吉布提港清关放行、往埃塞俄比亚公路走廊、国际贸易术语及工业采购规格标准参考资料。",
+"Mise à jour : novembre 2026": "更新日期：2026年11月",
+"Sommaire des guides": "指南目录",
+"01. Corridor & Cargaisons": "01. 运输走廊与货型",
+"02. Incoterms FOB / CFR / CIF": "02. FOB / CFR / CIF 术语",
+"03. Spécifications Acier & Ciment": "03. 钢材与水泥规格",
+"04. Implantation à Djibouti": "04. 吉布提企业落地",
+"Guide 01 · Fret & Transit": "指南 01 · 货运与过境",
+"Corridor Djibouti–Éthiopie : formats de cargaison et documents requis": "吉布提—埃塞俄比亚走廊：货物装载形式与必备单证",
+"Chaque expédition depuis le Port de Djibouti suit cinq jalons coordonnés : pré-alerte documentaire, opérations portuaires, formalités avec partenaires transitaires agréés, mise à quai routier et livraison finale.": "经吉布提港的每票货物均遵循五个协调节点：到港前单证预审、港口装卸作业、持牌合作伙伴过境清关、卡车装车启运及现场最终交付。",
+"Pré-alerte BL & facture avant escale": "靠泊前提单与发票预审",
+"Déchargement portuaire & pointage": "港口卸货与理货核对",
+"Transit & douane via partenaires agréés": "持牌合作方过境与报关",
+"Mise sur camion ou plateau routier": "装上集卡或平板拖车",
+"Livraison site & suivi d’avancement": "送达现场与进度跟踪",
+"Format d’expédition": "发运方式",
+"Profil de marchandise": "适用货物特征",
+"Équipement & manutention": "运输装备与装卸",
+"Documents de base exigés": "必备基础单证",
+"Conteneur FCL 20’": "20 尺整箱（FCL 20’）",
+"Charges denses : acier court, pièces lourdes, sacs palettisés": "高密度重货：短尺钢材、重型配件、打托袋装货",
+"Porte-conteneur routier standard, scellé d’origine": "标准集装箱卡车，原厂铅封直达",
+"Bill of Lading, Facture commerciale, Liste de colisage, Certificat d’origine": "海运提单、商业发票、装箱单、原产地证",
+"Conteneur FCL 40’": "40 尺整箱（FCL 40’）",
+"Volumes élevés, marchandises palettisées, équipements longs": "大体积货物、托盘货、长件设备",
+"Châssis 40’ / High Cube, grue ou chariot élévateur à destination": "40 尺 / 高箱底盘，目的地吊车或叉车卸货",
+"Groupage (LCL)": "海运拼箱（LCL）",
+"Lots partiels, pièces détachées, outillages et fournitures": "零担散货、零配件、工具及各类工业耗材",
+"Dépotage portuaire ou zone dédiée puis livraison ciblée": "港区或保税区拆箱后按指定地址分拨交付",
+"House/Master BL, Facture détaillée par colis, Liste de colisage": "货代/船东提单、按件明细发票、装箱单",
+"Vrac (Bulk)": "大宗散货（Bulk）",
+"Tonnages importants : ciment en vrac, granulats, matières premières": "大吨位无包装货：散装水泥、骨料、原材料",
+"Trémies, bennes ou silos portuaires selon cadences navire": "按卸船效率匹配料斗、自卸车或港口筒仓",
+"Charte-partie / BL vrac, Certificat de qualité et poids, Déclaration préalable": "租船合同 / 散货提单、品质及重量证书、预报关单",
+"Conventionnel (Breakbulk)": "件杂货（Breakbulk）",
+"Barres d’acier 12 m, tubes, engins, véhicules, caisses hors gabarit": "12 米长钢筋、钢管、工程机械、车辆及超限木箱",
+"Plateaux renforcés, grutage portuaire, arrimage spécialisé": "加固平板车、港口重吊及专业绑扎加固",
+"BL conventionnel, Plan de levage/dimensions, Certificats techniques": "件杂货提单、吊装尺寸图及技术合格证书",
+"Important : les activités réglementées de transit et de dédouanement à Djibouti sont exécutées exclusivement par des partenaires commissionnaires agréés coordonnés par HMG.": "重要提示：吉布提境内受监管的过境与报关业务均由 HMG 统筹协调的持牌报关行合作伙伴专属执行。",
+"Guide 02 · Sourcing & Négoce": "指南 02 · 采购与贸易",
+"Comparatif des conditions commerciales : FOB, CFR, CIF et Réception Djibouti": "贸易条款对比：FOB、CFR、CIF 与吉布提交付",
+"Le choix de l’Incoterm détermine qui paie le fret principal, qui supporte le risque pendant la traversée maritime et comment sécuriser la réception à Djibouti.": "贸易术语的选择决定了海运主运费承担方、海运途中风险划分以及吉布提接货保障方式。",
+"Condition négociée": "贸易条件",
+"Fret maritime principal": "海运主运费",
+"Assurance cargo": "货运保险",
+"Transfert du risque": "风险转移节点",
+"Usage recommandé à Djibouti": "吉布提适用场景",
+"FOB (Free On Board)": "FOB（装运港船上交货）",
+"Organisé et payé par l’acheteur / HMG": "由买方 / HMG 安排并支付",
+"À la charge de l’acheteur": "由买方投保承担",
+"À bord du navire au port d’embarquement": "起运港货物装上船舷时",
+"Maîtriser le taux de fret et grouper plusieurs fournisseurs": "自主掌控海运运价，整合多家供应商拼运",
+"CFR (Cost & Freight)": "CFR（成本加运费）",
+"Inclus jusqu’au Port de Djibouti": "含运费至吉布提港",
+"Souscrite par l’acheteur": "由买方另行购买保险",
+"Acheteurs disposant déjà d’une police d’assurance transport": "已持有年度货运保单的进口商",
+"CIF (Cost, Insurance & Freight)": "CIF（成本、保险费加运费）",
+"Incluse par le vendeur (couverture minimale)": "由卖方投保（基础险别）",
+"Offre maritime complète port à port pour commandes industrielles": "适合工业订单的港到港标准综合报价",
+"Coordonné de bout en bout via HMG": "由 HMG 全程统筹协调",
+"Selon contrat commercial convenu": "按双方商定贸易合同执行",
+"À la livraison convenue à Djibouti": "于吉布提约定交付点完成交货时",
+"Entreprises souhaitant un interlocuteur unique jusqu’à réception": "适合希望由单一对接方负责至吉布提收货的企业",
+"Guide 03 · Cahier des charges": "指南 03 · 采购技术规格",
+"Informations clés pour obtenir un devis précis sous 24 h ouvrées": "24 工作小时内获取精准报价的关键参数",
+"Plus vos spécifications initiales sont complètes, plus l’offre commerciale de sourcing ou de transport est rapide et exacte.": "您提供的初始规格越完整，我们的采购或运输报价就会越快、越准确。",
+"Aciers & sidérurgie": "钢材与钢铁产品",
+"Type :": "品类：",
+"Barres d’acier, fers à béton HA, tubes, profilés, billettes, bobines": "圆钢、HA 螺纹钢、钢管、型材、钢坯、钢卷",
+"Dimensions :": "尺寸：",
+"Diamètre (mm), épaisseur, longueur standard (6 m / 12 m)": "直径（毫米）、壁厚、定尺长度（6 米 / 12 米）",
+"Qualité :": "材质标准：",
+"Nuance et norme de fabrication exigée sur chantier": "工程要求的钢号及执行生产标准",
+"Volume :": "数量与包装：",
+"Tonnage total et conditionnement (fardeaux / conteneur / breakbulk)": "总吨位及包装形式（打捆 / 集装箱 / 散杂船）",
+"Ciment & matériaux": "水泥与建筑材料",
+"Format :": "包装形式：",
+"Ciment en sacs palettisés, big-bags ou ciment en vrac": "托盘袋装水泥、吨袋（Big-Bag）或散装水泥",
+"Granulats :": "骨料：",
+"Calibre, usage (béton, voirie, infrastructure) et tonnage": "粒径、用途（混凝土、道路、基建）及吨位",
+"Logistique :": "配送安排：",
+"Rythme de livraison souhaité sur chantier ou zone franche": "工地或自由区期望的供货节奏",
+"Condition :": "交付条款：",
+"FOB, CFR, CIF ou livraison finale à Djibouti / Éthiopie": "FOB、CFR、CIF 或送达吉布提 / 埃塞俄比亚现场",
+"Fûts, outillages & pièces": "工业桶、工具与配件",
+"Produits :": "产品：",
+"Fûts industriels, outillage d’atelier, vannes, brides, roulements": "工业钢桶、车间工具、阀门、法兰、轴承",
+"Identification :": "型号识别：",
+"Référence constructeur, plan coté, photo ou fiche technique": "原厂料号、尺寸图纸、照片或技术说明书",
+"Quantité :": "数量：",
+"Unités, lots ou approvisionnement récurrent mensuel": "件数、批次或月度常规供货需求",
+"Délai :": "时效：",
+"Urgence (fret aérien) ou planification maritime standard": "紧急空运或常规海运排期",
+"Guide 04 · Implantation": "指南 04 · 吉布提落地",
+"Checklist en 5 étapes pour démarrer une activité à Djibouti.": "在吉布提启动业务的五步实操清单。",
+"Coordination opérationnelle de l’étude initiale jusqu’au lancement effectif des approvisionnements et opérations.": "从前期评估到供应链与业务正式启动的全流程协同。",
+"Cadrage du projet": "项目定位与规划",
+"Définition de l’activité envisagée, du calendrier, du modèle opérationnel et des besoins logistiques associés.": "明确拟开展业务、时间表、运营模式及配套物流需求。",
+"Dossiers & démarches": "文件准备与审批跟进",
+"Structuration des pièces administratives et suivi rigoureux des étapes réglementaires liées au projet.": "梳理行政申报材料并严密跟进合规审批节点。",
+"Locaux & chaîne d’achat": "场地与供应链搭建",
+"Identification des locaux, entrepôts, fournisseurs initiaux et flux d’importation via le Port de Djibouti.": "落实办公场地、仓库、首批供应商及经吉布提港进口通道。",
+"Développement marché": "市场开拓",
+"Repérage d’opportunités commerciales locales à Djibouti et sur l’axe économique Djibouti–Éthiopie.": "发掘吉布提本土及吉布提—埃塞俄比亚走廊的商业机会。",
+"Suivi des échéances": "里程碑跟踪管理",
+"Pilotage continu des jalons, échéanciers et livrables convenus avec un point de contact unique.": "由单一对接人持续管控项目节点、工期与交付成果。",
+"Réponses rapides sur les opérations à Djibouti.": "吉布提实操常见问答。",
+"Procédures documentaires, Incoterms, choix du conteneur et spécifications techniques.": "单证流程、国际贸易术语、箱型选择及技术规格说明。",
+"Quels documents sont indispensables avant l’arrivée d’un navire au Port de Djibouti ?": "货物抵达吉布提港前必须准备哪些单证？",
+"Les quatre documents de base à préparer avant l’escale sont le connaissement maritime (Bill of Lading), la facture commerciale, la liste de colisage détaillée (poids net/brut, colisage, dimensions) et le certificat d’origine, complétés le cas échéant par les certificats d’assurance ou d’inspection.": "船舶靠泊前须备妥四份基础单证：海运提单（Bill of Lading）、商业发票、详细装箱单（含净重/毛重、件数与尺寸）及原产地证书，必要时辅以保险单或商检证书。",
+"Quelle différence entre FOB, CFR, CIF et Réception Djibouti pour un acheteur ?": "对买方而言，FOB、CFR、CIF 与吉布提交付有何区别？",
+"En FOB, l’acheteur organise le fret maritime et l’assurance dès l’embarquement au port d’origine. En CFR, le fournisseur paie le fret maritime jusqu’à Djibouti sans assurance. En CIF, le fret maritime et l’assurance sont inclus jusqu’au port de Djibouti. En Réception Djibouti, HMG coordonne l’approvisionnement, l’acheminement et la mise à disposition convenue à Djibouti.": "FOB 条件下由买方自起运港装船起安排海运和保险；CFR 由卖方支付至吉布提的海运费但不含保险；CIF 包含至吉布提港的海运费和基础货运保险；吉布提交付则由 HMG 统筹采购、运输并交付至吉布提约定地点。",
+"Comment choisir entre conteneur 20 pieds, 40 pieds, vrac (bulk) et breakbulk ?": "如何在 20 尺柜、40 尺柜、散货（Bulk）和件杂货（Breakbulk）之间选择？",
+"Le conteneur 20 pieds convient aux charges denses (aciers courts, matériel lourd, ciment palettisé), le 40 pieds aux volumes importants ou marchandises palettisées légères, le groupage (LCL) aux petits lots, le vrac (bulk) aux tonnages élevés sans emballage, et le breakbulk aux barres longues, tubes, machines et colis hors gabarit.": "20 尺柜适合重货（短钢材、重型配件、托盘水泥）；40 尺柜适合大体积或较轻托盘货；拼箱（LCL）适合小批量货；散货（Bulk）适合大吨位无包装大宗料；件杂货（Breakbulk）适合长棒材、钢管、大型机械及超限木箱。",
+"Quelles précisions techniques accélèrent un chiffrage acier ou ciment ?": "提供哪些技术细节能加快钢材或水泥报价？",
+"Pour les aciers : indiquez la nuance, le diamètre, la longueur (ex. 12 m), la norme souhaitée et le tonnage total. Pour le ciment et les matériaux : précisez le type de conditionnement (sacs palettisés, big-bags ou vrac), la quantité en tonnes, le port ou site de livraison et le délai cible.": "钢材请提供材质牌号、直径、长度（如 12 米）、执行标准和总吨位；水泥及建材请说明包装形式（托盘袋装、吨袋或散装）、吨数、交付港口或工地及目标交期。",
+"Besoin d’un chiffrage transport, sourcing ou accompagnement ?": "需要运输、采购或企业落地报价？",
+"Page introuvable (404) | HMG Global Business Solutions": "页面未找到 (404) | HMG Global Business Solutions",
+"La page demandée n’existe pas ou a été déplacée. Retrouvez nos services de logistique, sourcing et conseil à Djibouti.": "您访问的页面不存在或已被移动。请浏览我们在吉布提的物流、采购与咨询服务。",
+"Cette page est introuvable.": "未找到该页面。",
+"L’adresse demandée n’existe pas ou a été déplacée. Accédez directement à nos pôles d’activité, nos guides opérationnels ou notre formulaire de devis.": "您请求的网址不存在或已变更。您可直接前往我们的业务板块、运营指南或报价表单。",
+"Forme juridique : Société à Responsabilité Limitée (SARL) de droit djiboutien — Justificatifs d’immatriculation ODPIC disponibles sur demande officielle": "法律形式：依据吉布提法律设立的有限责任公司（SARL）— 可应正式请求提供 ODPIC 商业注册证明",
+"Hébergement & sécurité": "网站托管与安全",
+"Hébergement : Infrastructure cloud sécurisée HTTPS (domaines hmgglobalgroup.com, distribution redondante et chiffrement TLS actif).": "托管架构：高可用 HTTPS 安全云基础设施（hmgglobalgroup.com 域名集群，启用冗余分发及 TLS 加密）。",
+"Protection des données & demandes de devis": "数据保护与报价咨询",
+"Les informations transmises via les formulaires de devis sont destinées exclusivement au traitement de votre demande commerciale par HMG Global Business Solutions SARL (contact@hmgglobalgroup.com · hamza@hmgglobalgroup.com) et ne sont ni vendues ni cédées à des tiers commerciaux. Vous disposez d’un droit d’accès, de rectification et de suppression sur simple demande écrite.": "通过报价表单提交的信息仅用于 HMG Global Business Solutions SARL（contact@hmgglobalgroup.com · hamza@hmgglobalgroup.com）处理您的商业需求，绝不出售或转让给任何商业第三方。您有权随时书面申请查阅、更正或删除您的个人数据。",
+"Comment organiser l’acheminement d’une cargaison sur le corridor Djibouti–Éthiopie": "如何组织吉布提—埃塞俄比亚走廊货物运输",
+"Étapes opérationnelles de réception au Port de Djibouti jusqu’à la livraison sur site en Éthiopie ou à Djibouti.": "从吉布提港接货到埃塞俄比亚或吉布提现场交付的操作流程。",
+"Pré-alerte documentaire": "到港前单证预审",
+"Vérification avant arrivée navire : connaissement maritime (Bill of Lading), facture commerciale, liste de colisage et certificats d’origine.": "船舶抵港前核验海运提单、商业发票、装箱单及原产地证明。",
+"Suivi du déchargement au terminal à conteneurs, vrac ou conventionnel du Port de Djibouti et gestion des relâches.": "跟进吉布提港集装箱、散货或件杂货码头卸船作业及放行手续。",
+"Transit et formalités agréées": "持牌过境与清关协调",
+"Coordination des formalités douanières et de transit avec nos partenaires dûment agréés à Djibouti.": "依托吉布提合法持牌报关合作伙伴协调过境及清关手续。",
+"Chargement et transport routier": "装车与公路干线运输",
+"Mise à disposition des camions porte-conteneurs ou plateaux conventionnels pour le corridor Djibouti–Éthiopie.": "调派集装箱卡车或平板车执行吉布提—埃塞俄比亚走廊公路运输。",
+"Livraison sur site et preuve de réception": "现场交付与签收反馈",
+"Acheminement jusqu’à l’entrepôt, chantier, zone industrielle ou zone franche convenue avec suivi de livraison.": "运抵约定仓库、工地、工业园区或自由区并全程跟踪签收。",
+"HMG Global Business Solutions SARL prend en charge vos besoins en transport, logistique, sourcing & négoce et conseil d’implantation à Djibouti et sur le corridor Djibouti–Éthiopie.": "HMG Global Business Solutions SARL 为您在吉布提与吉布提—埃塞俄比亚走廊提供运输、物流、采购贸易及落地咨询一站式服务。",
+"Services et solutions HMG Global Business Solutions": "HMG Global Business Solutions 服务与解决方案",
+"Prestations logistiques et transport à Djibouti": "吉布提物流与运输服务",
+"Solutions de sourcing et négoce international": "国际采购与贸易解决方案",
+"Conseil et accompagnement à l’implantation à Djibouti": "吉布提企业落地咨询与支持"
 };
   var DICT = { en: EN, zh: ZH };
   var ATTRS = ['placeholder', 'alt', 'title', 'aria-label'];
   var origText = new Map(), origAttr = new Map();
-  var lang = 'fr';
-  try { lang = localStorage.getItem('hmg-lang') || 'fr'; } catch (e) {}
+  var prerendered = (document.documentElement && document.documentElement.dataset && document.documentElement.dataset.prerendered) || '';
+  var pathLang = /^\/en(\/|$)/.test(location.pathname || '') ? 'en' : /^\/zh(\/|$)/.test(location.pathname || '') ? 'zh' : '';
+  var lang = prerendered || pathLang || 'fr';
 
   function key(s) { return s.replace(/\s+/g, ' ').trim(); }
   function tr(s) { var k = key(s), D = DICT[lang]; return (D && D[k]) ? D[k] : null; }
+  window.HMG_DICT = DICT;
   window.HMG_LANG = function () { return lang; };
   window.HMG_T = function (s) { return tr(s) || s; };
 
@@ -766,26 +1071,28 @@
 
   function apply() {
     document.documentElement.lang = lang === 'zh' ? 'zh-Hans' : lang;
-    var w = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT), n;
-    while ((n = w.nextNode())) {
-      if (n.parentNode.closest('script,style,svg')) continue;
-      if (!origText.has(n)) { if (!/[A-Za-zÀ-ÿ]/.test(n.nodeValue)) continue; origText.set(n, n.nodeValue); }
-      var fr = origText.get(n), t = tr(fr);
-      if (t) { var lead = fr.match(/^\s*/)[0], tail = fr.match(/\s*$/)[0]; n.nodeValue = lead + t + tail; }
-      else n.nodeValue = fr;
-    }
-    document.querySelectorAll('[placeholder],[alt],[title],[aria-label]').forEach(function (el) {
-      ATTRS.forEach(function (a) {
-        if (!el.hasAttribute(a)) return;
-        var id = a; var store = origAttr.get(el) || {}; if (!(id in store)) store[id] = el.getAttribute(a); origAttr.set(el, store);
-        var t = tr(store[id]); el.setAttribute(a, t || store[id]);
+    if (!(prerendered && prerendered === lang)) {
+      var w = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT), n;
+      while ((n = w.nextNode())) {
+        if (n.parentNode.closest('script,style,svg')) continue;
+        if (!origText.has(n)) { if (!/[A-Za-zÀ-ÿ]/.test(n.nodeValue)) continue; origText.set(n, n.nodeValue); }
+        var fr = origText.get(n), t = tr(fr);
+        if (t) { var lead = fr.match(/^\s*/)[0], tail = fr.match(/\s*$/)[0]; n.nodeValue = lead + t + tail; }
+        else n.nodeValue = fr;
+      }
+      document.querySelectorAll('[placeholder],[alt],[title],[aria-label]').forEach(function (el) {
+        ATTRS.forEach(function (a) {
+          if (!el.hasAttribute(a)) return;
+          var id = a; var store = origAttr.get(el) || {}; if (!(id in store)) store[id] = el.getAttribute(a); origAttr.set(el, store);
+          var t = tr(store[id]); el.setAttribute(a, t || store[id]);
+        });
       });
-    });
-    if (!document.documentElement.dataset.frTitle) document.documentElement.dataset.frTitle = document.title;
-    document.title = tr(document.documentElement.dataset.frTitle) || document.documentElement.dataset.frTitle;
-    var md = document.querySelector('meta[name=description]');
-    if (md) { if (!md.dataset.fr) md.dataset.fr = md.content; md.content = tr(md.dataset.fr) || md.dataset.fr; }
-    document.querySelectorAll('a[href^="https://wa.me/"]').forEach(waLink);
+      if (!document.documentElement.dataset.frTitle) document.documentElement.dataset.frTitle = document.title;
+      document.title = tr(document.documentElement.dataset.frTitle) || document.documentElement.dataset.frTitle;
+      var md = document.querySelector('meta[name=description]');
+      if (md) { if (!md.dataset.fr) md.dataset.fr = md.content; md.content = tr(md.dataset.fr) || md.dataset.fr; }
+      document.querySelectorAll('a[href^="https://wa.me/"]').forEach(waLink);
+    }
     document.querySelectorAll('.lang [data-lang]').forEach(function (a) {
       var on = a.getAttribute('data-lang') === lang;
       a.classList.toggle('on', on); a.setAttribute('aria-pressed', on ? 'true' : 'false');
@@ -796,9 +1103,16 @@
 
   document.addEventListener('click', function (e) {
     var a = e.target.closest('.lang [data-lang]'); if (!a) return;
+    var nextLang = a.getAttribute('data-lang');
+    var href = a.getAttribute('href') || '';
+    try { localStorage.setItem('hmg-lang', nextLang); } catch (err) {}
+    if (href && href.charAt(0) === '/') {
+      e.preventDefault();
+      location.href = href + (location.search || '') + (location.hash || '');
+      return;
+    }
     e.preventDefault();
-    lang = a.getAttribute('data-lang');
-    try { localStorage.setItem('hmg-lang', lang); } catch (err) {}
+    lang = nextLang;
     apply();
   });
   apply();

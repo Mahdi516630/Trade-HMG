@@ -80,8 +80,8 @@
   }
 
   var main = document.querySelector('.prod-main');
-  if (main) initGallery(main, '.pm-img img', 0);
+  if (main) initGallery(main, '.pm-img img', 4200);
   document.querySelectorAll('.side-card.has-ph').forEach(function (card, i) {
-    initGallery(card, '.side-ph img', 4600 + i * 900);
+    initGallery(card, '.side-ph img', 4900 + i * 900);
   });
 })();
