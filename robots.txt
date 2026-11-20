@@ -1,0 +1,35 @@
+User-agent: *
+Allow: /
+Disallow: /merci
+Disallow: /merci.html
+
+User-agent: GPTBot
+Allow: /
+Disallow: /merci
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /merci
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /merci
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /merci
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /merci
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /merci
+
+User-agent: Applebot-Extended
+Allow: /
+Disallow: /merci
+
+Sitemap: https://hmgglobalgroup.com/sitemap.xml
+LLMs: https://hmgglobalgroup.com/llms.txt
