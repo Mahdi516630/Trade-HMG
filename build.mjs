@@ -16,15 +16,15 @@ const MEDIA_DIR = path.join(DIST_DIR, 'media');
 const BASE_URL = 'https://hmgglobalgroup.com';
 
 const PAGES = [
-  { file: 'index.html', fr: '/', en: '/en', zh: '/zh', outEn: 'en/index.html', outZh: 'zh/index.html' },
-  { file: 'logistique.html', fr: '/logistique', en: '/en/logistics', zh: '/zh/logistics', outEn: 'en/logistics.html', outZh: 'zh/logistics.html' },
-  { file: 'sourcing.html', fr: '/sourcing', en: '/en/sourcing', zh: '/zh/sourcing', outEn: 'en/sourcing.html', outZh: 'zh/sourcing.html' },
-  { file: 'conseil.html', fr: '/conseil', en: '/en/consulting', zh: '/zh/consulting', outEn: 'en/consulting.html', outZh: 'zh/consulting.html' },
-  { file: 'guides.html', fr: '/guides', en: '/en/guides', zh: '/zh/guides', outEn: 'en/guides.html', outZh: 'zh/guides.html' },
-  { file: 'a-propos.html', fr: '/a-propos', en: '/en/about', zh: '/zh/about', outEn: 'en/about.html', outZh: 'zh/about.html' },
-  { file: 'contact.html', fr: '/contact', en: '/en/contact', zh: '/zh/contact', outEn: 'en/contact.html', outZh: 'zh/contact.html' },
-  { file: 'mentions-legales.html', fr: '/mentions-legales', en: '/en/legal', zh: '/zh/legal', outEn: 'en/legal.html', outZh: 'zh/legal.html' },
-  { file: 'merci.html', fr: '/merci', en: '/en/thanks', zh: '/zh/thanks', outEn: 'en/thanks.html', outZh: 'zh/thanks.html' },
+  { file: 'index.html', fr: '/', en: '/en', zh: '/zh', am: '/am', outEn: 'en/index.html', outZh: 'zh/index.html', outAm: 'am/index.html' },
+  { file: 'logistique.html', fr: '/logistique', en: '/en/logistics', zh: '/zh/logistics', am: '/am/logistics', outEn: 'en/logistics.html', outZh: 'zh/logistics.html', outAm: 'am/logistics.html' },
+  { file: 'sourcing.html', fr: '/sourcing', en: '/en/sourcing', zh: '/zh/sourcing', am: '/am/sourcing', outEn: 'en/sourcing.html', outZh: 'zh/sourcing.html', outAm: 'am/sourcing.html' },
+  { file: 'conseil.html', fr: '/conseil', en: '/en/consulting', zh: '/zh/consulting', am: '/am/consulting', outEn: 'en/consulting.html', outZh: 'zh/consulting.html', outAm: 'am/consulting.html' },
+  { file: 'guides.html', fr: '/guides', en: '/en/guides', zh: '/zh/guides', am: '/am/guides', outEn: 'en/guides.html', outZh: 'zh/guides.html', outAm: 'am/guides.html' },
+  { file: 'a-propos.html', fr: '/a-propos', en: '/en/about', zh: '/zh/about', am: '/am/about', outEn: 'en/about.html', outZh: 'zh/about.html', outAm: 'am/about.html' },
+  { file: 'contact.html', fr: '/contact', en: '/en/contact', zh: '/zh/contact', am: '/am/contact', outEn: 'en/contact.html', outZh: 'zh/contact.html', outAm: 'am/contact.html' },
+  { file: 'mentions-legales.html', fr: '/mentions-legales', en: '/en/legal', zh: '/zh/legal', am: '/am/legal', outEn: 'en/legal.html', outZh: 'zh/legal.html', outAm: 'am/legal.html' },
+  { file: 'merci.html', fr: '/merci', en: '/en/thanks', zh: '/zh/thanks', am: '/am/thanks', outEn: 'en/thanks.html', outZh: 'zh/thanks.html', outAm: 'am/thanks.html' },
 ];
 
 const JS_FILES = [
@@ -37,7 +37,7 @@ const JS_FILES = [
 ];
 
 const IMAGE_ASSETS = [
-  { src: 'assets/hmg-logo.png', slug: 'hmg-logo', maxWidth: 480, ogJpg: false, keepPng: true },
+  { src: 'public/assets/aistudio/HMG_-_LOGO-01_3cacb87a.png', slug: 'hmg-logo', maxWidth: 640, ogJpg: false, keepPng: true },
   { src: 'public/assets/aistudio/IMG-20261118-WA0051_1017669b.jpg', slug: 'port-djibouti-hero', maxWidth: 1376, ogJpg: true },
   { src: 'public/assets/aistudio/F627EEEA-FA64-4E65-BEF7-447E4DD370DB_51897636.png', slug: 'terminal-conteneurs-djibouti', maxWidth: 1200, ogJpg: false },
   { src: 'assets/carte-sourcing.jpg', slug: 'sourcing-materiaux-djibouti', maxWidth: 1000, ogJpg: false },
@@ -61,8 +61,13 @@ const IMAGE_ASSETS = [
   { src: 'assets/apropos-locaux.jpg', slug: 'bureaux-hmg-djibouti', maxWidth: 1200, ogJpg: false },
 ];
 
+const DIRECT_PUBLIC_ASSETS = new Set([
+  'public/assets/aistudio/IMG-20261118-WA0051_1017669b.jpg',
+  'public/assets/aistudio/HMG_-_LOGO-01_3cacb87a.png',
+]);
+
 const WEB_MEDIA_MAP = new Map(
-  IMAGE_ASSETS.filter((a) => a.src !== 'public/assets/aistudio/IMG-20261118-WA0051_1017669b.jpg').map((a) => [
+  IMAGE_ASSETS.filter((a) => !DIRECT_PUBLIC_ASSETS.has(a.src)).map((a) => [
     '/' + a.src,
     `/media/${a.slug}.webp`,
   ])
@@ -108,7 +113,7 @@ function loadI18nDictionaries(rawI18n) {
   };
   context.window = context;
   vm.runInNewContext(rawI18n, context);
-  return context.window.HMG_DICT || { en: {}, zh: {} };
+  return context.window.HMG_DICT || { en: {}, zh: {}, am: {} };
 }
 
 function createIcoFromPng(pngBuf, size = 32) {
@@ -206,7 +211,7 @@ function localizeJsonLd(obj, lang, dict, frToTarget) {
   const out = {};
   for (const [k, v] of Object.entries(obj)) {
     if (k === 'inLanguage' && typeof v === 'string') {
-      out[k] = lang === 'zh' ? 'zh-Hans' : 'en';
+      out[k] = lang === 'zh' ? 'zh-Hans' : lang === 'am' ? 'am' : 'en';
       continue;
     }
     if ((k === 'url' || k === 'item' || k === '@id') && typeof v === 'string') {
@@ -286,15 +291,19 @@ function buildLocalizedHtml(frHtml, page, lang, dict, frToTarget) {
     return $.html();
   }
 
-  const htmlLang = lang === 'zh' ? 'zh-Hans' : 'en';
+  const htmlLang = lang === 'zh' ? 'zh-Hans' : lang === 'am' ? 'am' : 'en';
   $('html').attr('lang', htmlLang).attr('data-prerendered', lang);
 
   const canonicalUrl = BASE_URL + page[lang];
   $('link[rel="canonical"]').attr('href', canonicalUrl);
   $('meta[property="og:url"]').attr('content', canonicalUrl);
-  $('meta[property="og:locale"]').attr('content', lang === 'zh' ? 'zh_CN' : 'en_US');
+  $('meta[property="og:locale"]').attr('content', lang === 'zh' ? 'zh_CN' : lang === 'am' ? 'am_ET' : 'en_US');
 
-  const altLocales = lang === 'zh' ? ['fr_FR', 'en_US'] : ['fr_FR', 'zh_CN'];
+  const altLocales = lang === 'zh'
+    ? ['fr_FR', 'en_US', 'am_ET']
+    : lang === 'am'
+      ? ['fr_FR', 'en_US', 'zh_CN']
+      : ['fr_FR', 'zh_CN', 'am_ET'];
   $('meta[property="og:locale:alternate"]').each((idx, el) => {
     if (altLocales[idx]) $(el).attr('content', altLocales[idx]);
   });
@@ -380,6 +389,7 @@ export async function buildDist() {
   await fs.mkdir(path.join(DIST_DIR, 'js'), { recursive: true });
   await fs.mkdir(path.join(DIST_DIR, 'en'), { recursive: true });
   await fs.mkdir(path.join(DIST_DIR, 'zh'), { recursive: true });
+  await fs.mkdir(path.join(DIST_DIR, 'am'), { recursive: true });
 
   await buildMediaAssets();
 
@@ -427,6 +437,7 @@ export async function buildDist() {
 
   const frToEn = new Map(PAGES.map((p) => [p.fr, p.en]));
   const frToZh = new Map(PAGES.map((p) => [p.fr, p.zh]));
+  const frToAm = new Map(PAGES.map((p) => [p.fr, p.am]));
 
   for (const page of PAGES) {
     const htmlInput = await fs.readFile(path.join(__dirname, page.file), 'utf8');
@@ -439,13 +450,17 @@ export async function buildDist() {
 
     const zhHtml = buildLocalizedHtml(htmlInput, page, 'zh', dicts.zh || {}, frToZh);
     await minifyWriteHtml(page.outZh, zhHtml);
+
+    const amHtml = buildLocalizedHtml(htmlInput, page, 'am', dicts.am || {}, frToAm);
+    await minifyWriteHtml(page.outAm, amHtml);
   }
 
   const raw404 = await fs.readFile(path.join(__dirname, '404.html'), 'utf8');
-  const errPage = { fr: '/404', en: '/en/404', zh: '/zh/404' };
+  const errPage = { fr: '/404', en: '/en/404', zh: '/zh/404', am: '/am/404' };
   await minifyWriteHtml('404.html', buildLocalizedHtml(raw404, errPage, 'fr', {}, new Map()));
   await minifyWriteHtml('en/404.html', buildLocalizedHtml(raw404, errPage, 'en', dicts.en || {}, frToEn));
   await minifyWriteHtml('zh/404.html', buildLocalizedHtml(raw404, errPage, 'zh', dicts.zh || {}, frToZh));
+  await minifyWriteHtml('am/404.html', buildLocalizedHtml(raw404, errPage, 'am', dicts.am || {}, frToAm));
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === __filename) {

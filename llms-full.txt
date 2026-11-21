@@ -10,7 +10,7 @@
 - **Primary Emails**: contact@hmgglobalgroup.com, hamza@hmgglobalgroup.com
 - **Telephone / WhatsApp**: +253 77 29 24 96 / +253 77 57 68 05
 - **Business Hours**: Sunday to Thursday, 08:00–17:00 (Djibouti time, UTC+3)
-- **Languages**: French, English, Simplified Chinese
+- **Languages**: French, English, Simplified Chinese, Amharic (አማርኛ)
 - **Core Commitments**:
   1. **Écoute (Listening)**: Precise understanding of client requirements.
   2. **Réactivité (Responsiveness)**: Fast response under 24 business hours.
@@ -106,7 +106,7 @@ A: Businesses can submit specifications via https://hmgglobalgroup.com/contact, 
 
 ## 6. Operational Guides Reference Hub (https://hmgglobalgroup.com/guides)
 
-Structured operational reference published in French (`/guides`), English (`/en/guides`), and Simplified Chinese (`/zh/guides`):
+Structured operational reference published in French (`/guides`), English (`/en/guides`), Simplified Chinese (`/zh/guides`), and Amharic (`/am/guides`):
 
 ### Cargo Format Matrix (Port of Djibouti & Corridor)
 - **20’ FCL Container**: Dense cargo (short steel bars, heavy machinery parts, palletized cement sacks) hauled on standard sealed container chassis. Required docs: Bill of Lading, Commercial Invoice, Packing List, Certificate of Origin.
@@ -125,4 +125,5 @@ Structured operational reference published in French (`/guides`), English (`/en/
 - **FR**: `/`, `/logistique`, `/sourcing`, `/conseil`, `/guides`, `/a-propos`, `/contact`, `/mentions-legales`
 - **EN**: `/en`, `/en/logistics`, `/en/sourcing`, `/en/consulting`, `/en/guides`, `/en/about`, `/en/contact`, `/en/legal`
 - **ZH**: `/zh`, `/zh/logistics`, `/zh/sourcing`, `/zh/consulting`, `/zh/guides`, `/zh/about`, `/zh/contact`, `/zh/legal`
+- **AM**: `/am`, `/am/logistics`, `/am/sourcing`, `/am/consulting`, `/am/guides`, `/am/about`, `/am/contact`, `/am/legal`
 

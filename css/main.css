@@ -12,8 +12,8 @@ a{color:inherit;text-decoration:none}
 /* ---------- En-tête ---------- */
 .header{position:sticky;top:0;z-index:50;background:#060e1c;border-bottom:1px solid rgba(255,255,255,.07)}
 .header .container{display:flex;align-items:center;gap:18px;height:76px}.header .btn{white-space:nowrap}
-.logo{display:flex;align-items:center;background:#fff;border-radius:10px;padding:6px 12px;height:48px}
-.logo img{height:36px;width:auto;display:block}
+.logo{display:flex;align-items:center;background:#fff;border-radius:10px;padding:3px 10px;height:52px}
+.logo img{height:46px;width:auto;display:block}
 .logo .wordmark{display:none;font-weight:900;letter-spacing:-.04em;font-size:26px;color:var(--navy-900);line-height:1}
 .logo .wordmark b{color:var(--orange)}
 .logo.noimg img{display:none}.logo.noimg .wordmark{display:flex;flex-direction:column;justify-content:center}
@@ -657,6 +657,9 @@ span.f{display:block;font-size:13px;font-weight:600;color:#33445a;margin-bottom:
 html[lang="zh-Hans"] body,html[lang="zh-Hans"] .btn,html[lang="zh-Hans"] input,html[lang="zh-Hans"] textarea,html[lang="zh-Hans"] select{font-family:Inter,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC","Noto Sans CJK SC","Source Han Sans SC",system-ui,sans-serif}
 html[lang="zh-Hans"] .eyebrow{letter-spacing:.12em}
 html[lang="zh-Hans"] h1,html[lang="zh-Hans"] h2{letter-spacing:0;line-height:1.25}
+html[lang="am"] body,html[lang="am"] .btn,html[lang="am"] input,html[lang="am"] textarea,html[lang="am"] select{font-family:"Noto Sans Ethiopic","Nyala","Abyssinica SIL","Ebrima",Inter,system-ui,sans-serif}
+html[lang="am"] .eyebrow{letter-spacing:.08em}
+html[lang="am"] h1,html[lang="am"] h2{letter-spacing:0;line-height:1.25}
 
 /* =========== Outils d'en-tête & Bouton Mode Sombre / Clair =========== */
 .nav-tools{display:flex;align-items:center;gap:10px}

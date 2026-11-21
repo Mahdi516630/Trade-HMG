@@ -19,6 +19,7 @@ HMG Global Business Solutions SARL provides integrated import/export freight, po
 
 - **English (`/en`)**: https://hmgglobalgroup.com/en | /en/logistics | /en/sourcing | /en/consulting | /en/guides | /en/about | /en/contact | /en/legal
 - **Simplified Chinese (`/zh`)**: https://hmgglobalgroup.com/zh | /zh/logistics | /zh/sourcing | /zh/consulting | /zh/guides | /zh/about | /zh/contact | /zh/legal
+- **Amharic (አማርኛ) (`/am`)**: https://hmgglobalgroup.com/am | /am/logistics | /am/sourcing | /am/consulting | /am/guides | /am/about | /am/contact | /am/legal
 
 ## Full Documentation
 
@@ -30,7 +31,7 @@ HMG Global Business Solutions SARL provides integrated import/export freight, po
 - Managing Director: Hamza Mohamed Hassan
 - Headquarters: Saline Ouest, Djibouti, Republic of Djibouti
 - Geographic Coverage: Djibouti, Port of Djibouti, Djibouti Free Zones, Djibouti–Ethiopia Corridor, Ethiopia
-- Languages Supported: French (FR), English (EN), Simplified Chinese (中文)
+- Languages Supported: French (FR), English (EN), Simplified Chinese (中文), Amharic (አማርኛ)
 - Operating Hours: Sunday–Thursday, 08:00–17:00 EAT (UTC+3), 24-hour business day response target
 - Phone / WhatsApp: +253 77 29 24 96 / +253 77 57 68 05
 - Email: contact@hmgglobalgroup.com | hamza@hmgglobalgroup.com
