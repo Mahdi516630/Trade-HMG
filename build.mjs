@@ -59,11 +59,16 @@ const IMAGE_ASSETS = [
   { src: 'assets/conseil-hero.jpg', slug: 'conseil-entreprises-djibouti', maxWidth: 1400, ogJpg: true },
   { src: 'assets/apropos-hero.jpg', slug: 'djibouti-vue-aerienne', maxWidth: 1400, ogJpg: true },
   { src: 'assets/apropos-locaux.jpg', slug: 'bureaux-hmg-djibouti', maxWidth: 1200, ogJpg: false },
+  { src: 'assets/carte-logistique.jpg', slug: 'logistique-transit-djibouti', maxWidth: 900, ogJpg: false },
+  { src: 'assets/container-truck.jpg', slug: 'transport-conteneurs-djibouti', maxWidth: 1000, ogJpg: false },
+  { src: 'assets/cargo-breakbulk.jpg', slug: 'cargo-breakbulk-djibouti', maxWidth: 1200, ogJpg: false },
+  { src: 'assets/carte-conseil.jpg', slug: 'conseil-projets-djibouti', maxWidth: 1000, ogJpg: false },
 ];
 
 const DIRECT_PUBLIC_ASSETS = new Set([
   'public/assets/aistudio/IMG-20261118-WA0051_1017669b.jpg',
   'public/assets/aistudio/HMG_-_LOGO-01_3cacb87a.png',
+  'public/assets/aistudio/IMG-20261120-WA0012_30321fdf.jpg',
 ]);
 
 const WEB_MEDIA_MAP = new Map(
@@ -135,17 +140,89 @@ function createIcoFromPng(pngBuf, size = 32) {
   return Buffer.concat([header, dir, pngBuf]);
 }
 
-async function buildMediaAssets() {
-  await fs.mkdir(MEDIA_DIR, { recursive: true });
+async function buildFaviconsFromLogo() {
+  const logoAbs = path.join(__dirname, 'public/assets/aistudio/HMG_-_LOGO-01_3cacb87a.png');
+  const trimmed = await sharp(logoAbs).trim().toBuffer({ resolveWithObject: true });
+  const markHeight = Math.min(trimmed.info.height, 1462);
+  const markRaw = await sharp(trimmed.data)
+    .extract({ left: 0, top: 0, width: trimmed.info.width, height: markHeight })
+    .trim()
+    .resize({ width: 452, withoutEnlargement: true })
+    .ensureAlpha()
+    .raw()
+    .toBuffer({ resolveWithObject: true });
 
-  const faviconSvg = await fs.readFile(path.join(__dirname, 'favicon.svg'));
-  const favicon32 = await sharp(faviconSvg, { density: 300 }).resize(32, 32).png({ compressionLevel: 9 }).toBuffer();
-  const appleIcon = await sharp(faviconSvg, { density: 300 }).resize(180, 180).png({ compressionLevel: 9 }).toBuffer();
+  const buf = Buffer.from(markRaw.data);
+  for (let i = 0; i < buf.length; i += 4) {
+    const a = buf[i + 3];
+    if (a === 0) continue;
+    const r = buf[i];
+    const b = buf[i + 2];
+    const warmth = Math.max(0, Math.min(1, (r - b) / 140));
+    buf[i] = Math.round(255 * (1 - warmth) + 242 * warmth);
+    buf[i + 1] = Math.round(255 * (1 - warmth) + 174 * warmth);
+    buf[i + 2] = Math.round(255 * (1 - warmth) + 46 * warmth);
+  }
+
+  const markPng = await sharp(buf, {
+    raw: { width: markRaw.info.width, height: markRaw.info.height, channels: 4 },
+  })
+    .resize({ width: 452, height: 370, fit: 'inside' })
+    .png()
+    .toBuffer();
+
+  const roundedBgSvg = Buffer.from(
+    `<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+      <defs>
+        <radialGradient id="g" cx="50%" cy="35%" r="70%">
+          <stop offset="0%" stop-color="#0e2d63"/>
+          <stop offset="100%" stop-color="#061838"/>
+        </radialGradient>
+      </defs>
+      <rect width="512" height="512" rx="112" fill="url(#g)"/>
+      <rect x="10" y="10" width="492" height="492" rx="102" fill="none" stroke="#d4a843" stroke-opacity="0.32" stroke-width="6"/>
+    </svg>`
+  );
+
+  const squareBgSvg = Buffer.from(
+    `<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+      <defs>
+        <radialGradient id="g" cx="50%" cy="35%" r="70%">
+          <stop offset="0%" stop-color="#0e2d63"/>
+          <stop offset="100%" stop-color="#061838"/>
+        </radialGradient>
+      </defs>
+      <rect width="512" height="512" fill="url(#g)"/>
+    </svg>`
+  );
+
+  const badge512 = await sharp(roundedBgSvg)
+    .composite([{ input: markPng, gravity: 'center' }])
+    .png()
+    .toBuffer();
+
+  const touch512 = await sharp(squareBgSvg)
+    .composite([{ input: markPng, gravity: 'center' }])
+    .png()
+    .toBuffer();
+
+  const favicon32 = await sharp(badge512).resize(32, 32).png({ compressionLevel: 9 }).toBuffer();
+  const favicon192 = await sharp(badge512).resize(192, 192).png({ compressionLevel: 9 }).toBuffer();
+  const appleIcon = await sharp(touch512).resize(180, 180).png({ compressionLevel: 9 }).toBuffer();
 
   await fs.writeFile(path.join(MEDIA_DIR, 'favicon-32.png'), favicon32);
   await fs.writeFile(path.join(MEDIA_DIR, 'apple-touch-icon.png'), appleIcon);
   await fs.writeFile(path.join(DIST_DIR, 'favicon.ico'), createIcoFromPng(favicon32, 32));
-  await fs.copyFile(path.join(__dirname, 'favicon.svg'), path.join(DIST_DIR, 'favicon.svg'));
+
+  const svgEmbed = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192"><image width="192" height="192" href="data:image/png;base64,${favicon192.toString('base64')}"/></svg>\n`;
+  await fs.writeFile(path.join(__dirname, 'favicon.svg'), svgEmbed, 'utf8');
+  await fs.writeFile(path.join(DIST_DIR, 'favicon.svg'), svgEmbed, 'utf8');
+}
+
+async function buildMediaAssets() {
+  await fs.mkdir(MEDIA_DIR, { recursive: true });
+
+  await buildFaviconsFromLogo();
   await fs.copyFile(path.join(__dirname, 'site.webmanifest'), path.join(DIST_DIR, 'site.webmanifest'));
 
   for (const item of IMAGE_ASSETS) {
