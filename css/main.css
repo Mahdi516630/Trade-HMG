@@ -122,7 +122,7 @@ details.more .fields{padding:0 16px 16px}
 .how li::before{content:counter(s,decimal-leading-zero);font-weight:800;color:var(--orange);font-size:13px;min-width:22px;padding-top:1px}
 
 /* ---------- Pied de page ---------- */
-.footer{background:var(--navy-950);color:#9fb0c6;padding:64px 0 0;position:relative;overflow:hidden}
+.footer{background:linear-gradient(90deg,#061838 0%,#0a2350 55%,#071b3d 100%);color:#9fb0c6;padding:64px 0 0;position:relative;overflow:hidden}
 .footer .cols{display:grid;grid-template-columns:1.4fr 1fr 1fr 1.2fr;gap:40px}
 .footer h5{color:var(--gold);font-size:12px;letter-spacing:.16em;text-transform:uppercase;margin-bottom:16px}
 .footer li{list-style:none;margin:9px 0;font-size:14px}
@@ -533,6 +533,7 @@ span.f{display:block;font-size:13px;font-weight:600;color:#33445a;margin-bottom:
 .rows5 h3{font-size:16.5px}
 .rows5 p{color:var(--muted);font-size:14.5px}
 .conseil-gallery{margin-top:26px}
+.conseil-gallery .side-ph{height:auto;aspect-ratio:1400/764}
 /* À propos */
 .about-hero{padding-bottom:80px}
 .about-hero h1{max-width:640px}
@@ -917,7 +918,11 @@ html[data-theme="dark"] .float-card-frame{border-color:rgba(255,255,255,.16);box
 .prest-stage.is-paused .prest-bar.is-running{animation-play-state:paused}
 @keyframes hmgPrestBar{from{transform:scaleX(0)}to{transform:scaleX(1)}}
 .prest-body{display:grid;grid-template-columns:1fr auto;gap:24px;align-items:center;min-height:84px;transition:opacity .22s cubic-bezier(.22,1,.36,1),transform .22s cubic-bezier(.22,1,.36,1)}
-.prest-stage--no-cta .prest-body,.rows-split .prest-body{grid-template-columns:1fr;gap:16px}
+.prest-stage--no-cta .prest-body{grid-template-columns:1fr;gap:16px}
+.rows-split:has(.prest-stage):not(.keep-split){grid-template-columns:1fr;gap:34px}
+.rows-split.keep-split{align-items:center}
+.keep-split .prest-body{grid-template-columns:1fr;gap:16px}
+.keep-split .prest-cta{justify-self:start}
 .prest-stage--compact .prest-body{min-height:56px}
 .prest-body.is-leaving{opacity:0;transform:translateX(-14px)}
 .prest-body.is-entering{opacity:0;transform:translateX(14px);transition:none}
@@ -948,3 +953,7 @@ html[data-theme="dark"] .prest-text h3{color:#f4f7fb}
 html[data-theme="dark"] .prest-text p a{color:#ff9a55}
 
 
+
+html[data-theme="dark"] .footer{background:linear-gradient(90deg,#061633 0%,#091f46 55%,#071938 100%)}
+.logo[data-zoom-kind]{cursor:zoom-in}
+.zoom-stage[data-kind="logo"] img{max-width:min(760px,92%);height:auto;filter:invert(1) hue-rotate(185deg) brightness(2.2) saturate(.95)}

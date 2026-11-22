@@ -52,7 +52,7 @@
     if (/^\/en(\/|$)/.test(p)) return '/en';
     if (/^\/zh(\/|$)/.test(p)) return '/zh';
     if (/^\/am(\/|$)/.test(p)) return '/am';
-    return '/';
+    return 'index.html';
   }
 
   function currentContactHref() {
@@ -60,7 +60,7 @@
     if (/^\/en(\/|$)/.test(p)) return '/en/contact';
     if (/^\/zh(\/|$)/.test(p)) return '/zh/contact';
     if (/^\/am(\/|$)/.test(p)) return '/am/contact';
-    return '/contact';
+    return 'contact.html';
   }
 
   function syncZoomTexts() {
@@ -69,7 +69,7 @@
     var closeBtn = modal.querySelector('.zoom-close');
     var actionLink = modal.querySelector('.zoom-home');
     if (titleEl) {
-      titleEl.textContent = T('Carte de visite officielle');
+      titleEl.textContent = T(activeKind === 'logo' ? 'Logo HMG Global Business Solutions' : 'Carte de visite officielle');
     }
     if (closeBtn) closeBtn.setAttribute('aria-label', T('Fermer'));
     if (actionLink) {
