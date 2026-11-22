@@ -73,9 +73,9 @@ const DIRECT_PUBLIC_ASSETS = new Set([
 ]);
 
 const WEB_MEDIA_MAP = new Map(
-  IMAGE_ASSETS.filter((a) => !DIRECT_PUBLIC_ASSETS.has(a.src)).map((a) => [
-    '/' + a.src,
-    `/media/${a.slug}.webp`,
+  IMAGE_ASSETS.filter((a) => !DIRECT_PUBLIC_ASSETS.has(a.src)).flatMap((a) => [
+    ['/' + a.src, `/media/${a.slug}.webp`],
+    [a.src, `media/${a.slug}.webp`],
   ])
 );
 const META_MEDIA_MAP = new Map(
@@ -122,23 +122,29 @@ function loadI18nDictionaries(rawI18n) {
   return context.window.HMG_DICT || { en: {}, zh: {}, am: {} };
 }
 
-function createIcoFromPng(pngBuf, size = 32) {
+function createIcoFromPngs(entries) {
   const header = Buffer.alloc(6);
   header.writeUInt16LE(0, 0);
   header.writeUInt16LE(1, 2);
-  header.writeUInt16LE(1, 4);
+  header.writeUInt16LE(entries.length, 4);
 
-  const dir = Buffer.alloc(16);
-  dir.writeUInt8(size === 256 ? 0 : size, 0);
-  dir.writeUInt8(size === 256 ? 0 : size, 1);
-  dir.writeUInt8(0, 2);
-  dir.writeUInt8(0, 3);
-  dir.writeUInt16LE(1, 4);
-  dir.writeUInt16LE(32, 6);
-  dir.writeUInt32LE(pngBuf.length, 8);
-  dir.writeUInt32LE(22, 12);
+  let offset = 6 + entries.length * 16;
+  const dirs = [];
+  for (const entry of entries) {
+    const dir = Buffer.alloc(16);
+    dir.writeUInt8(entry.size >= 256 ? 0 : entry.size, 0);
+    dir.writeUInt8(entry.size >= 256 ? 0 : entry.size, 1);
+    dir.writeUInt8(0, 2);
+    dir.writeUInt8(0, 3);
+    dir.writeUInt16LE(1, 4);
+    dir.writeUInt16LE(32, 6);
+    dir.writeUInt32LE(entry.buf.length, 8);
+    dir.writeUInt32LE(offset, 12);
+    offset += entry.buf.length;
+    dirs.push(dir);
+  }
 
-  return Buffer.concat([header, dir, pngBuf]);
+  return Buffer.concat([header, ...dirs, ...entries.map((e) => e.buf)]);
 }
 
 async function buildFaviconsFromLogo() {
@@ -208,12 +214,34 @@ async function buildFaviconsFromLogo() {
     .toBuffer();
 
   const favicon32 = await sharp(badge512).resize(32, 32).png({ compressionLevel: 9 }).toBuffer();
+  const favicon48 = await sharp(badge512).resize(48, 48).png({ compressionLevel: 9 }).toBuffer();
+  const favicon96 = await sharp(badge512).resize(96, 96).png({ compressionLevel: 9 }).toBuffer();
   const favicon192 = await sharp(badge512).resize(192, 192).png({ compressionLevel: 9 }).toBuffer();
+  const favicon512 = await sharp(badge512).png({ compressionLevel: 9 }).toBuffer();
   const appleIcon = await sharp(touch512).resize(180, 180).png({ compressionLevel: 9 }).toBuffer();
+  const icoBuf = createIcoFromPngs([
+    { size: 32, buf: favicon32 },
+    { size: 48, buf: favicon48 },
+  ]);
 
-  await fs.writeFile(path.join(MEDIA_DIR, 'favicon-32.png'), favicon32);
-  await fs.writeFile(path.join(MEDIA_DIR, 'apple-touch-icon.png'), appleIcon);
-  await fs.writeFile(path.join(DIST_DIR, 'favicon.ico'), createIcoFromPng(favicon32, 32));
+  const rootMediaDir = path.join(__dirname, 'media');
+  await fs.mkdir(rootMediaDir, { recursive: true });
+
+  const iconOutputs = [
+    ['favicon-32.png', favicon32],
+    ['favicon-48.png', favicon48],
+    ['favicon-96.png', favicon96],
+    ['favicon-192.png', favicon192],
+    ['favicon-512.png', favicon512],
+    ['apple-touch-icon.png', appleIcon],
+  ];
+  for (const [name, bufData] of iconOutputs) {
+    await fs.writeFile(path.join(MEDIA_DIR, name), bufData);
+    await fs.writeFile(path.join(rootMediaDir, name), bufData);
+  }
+
+  await fs.writeFile(path.join(DIST_DIR, 'favicon.ico'), icoBuf);
+  await fs.writeFile(path.join(__dirname, 'favicon.ico'), icoBuf);
 
   const svgEmbed = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192"><image width="192" height="192" href="data:image/png;base64,${favicon192.toString('base64')}"/></svg>\n`;
   await fs.writeFile(path.join(__dirname, 'favicon.svg'), svgEmbed, 'utf8');
@@ -240,20 +268,43 @@ async function buildMediaAssets() {
   }
 }
 
-function rewriteAssetPaths($) {
+function rewriteAssetPaths($, prefix = '') {
+  const applyPrefix = (val) => {
+    if (!prefix || !val) return val;
+    if (/^(https?:|data:|mailto:|tel:|#|\/|\.\.\/)/.test(val)) return val;
+    return prefix + val;
+  };
+
   $('img[src]').each((_, el) => {
-    const src = $(el).attr('src');
+    let src = $(el).attr('src');
     if (src && WEB_MEDIA_MAP.has(src)) {
-      $(el).attr('src', WEB_MEDIA_MAP.get(src));
+      src = WEB_MEDIA_MAP.get(src);
     }
+    if (src) $(el).attr('src', applyPrefix(src));
   });
 
   $('[data-img]').each((_, el) => {
-    const imgPath = $(el).attr('data-img');
+    let imgPath = $(el).attr('data-img');
     if (imgPath && WEB_MEDIA_MAP.has(imgPath)) {
-      $(el).attr('data-img', WEB_MEDIA_MAP.get(imgPath));
+      imgPath = WEB_MEDIA_MAP.get(imgPath);
     }
+    if (imgPath) $(el).attr('data-img', applyPrefix(imgPath));
   });
+
+  if (prefix) {
+    $('[data-zoom-src]').each((_, el) => {
+      const z = $(el).attr('data-zoom-src');
+      if (z) $(el).attr('data-zoom-src', applyPrefix(z));
+    });
+    $('link[rel="icon"], link[rel="apple-touch-icon"], link[rel="manifest"], link[rel="stylesheet"]').each((_, el) => {
+      const href = $(el).attr('href');
+      if (href) $(el).attr('href', applyPrefix(href));
+    });
+    $('script[src]').each((_, el) => {
+      const src = $(el).attr('src');
+      if (src) $(el).attr('src', applyPrefix(src));
+    });
+  }
 
   $('meta[property="og:image"], meta[name="twitter:image"]').each((_, el) => {
     const content = $(el).attr('content') || '';
@@ -334,7 +385,7 @@ function translateTextNodes($, rootEl, dict) {
 
 function buildLocalizedHtml(frHtml, page, lang, dict, frToTarget) {
   const $ = cheerio.load(frHtml, { decodeEntities: false });
-  rewriteAssetPaths($);
+  rewriteAssetPaths($, lang === 'fr' ? '' : '../');
 
   if (lang === 'fr') {
     $('script[type="application/ld+json"]').each((_, el) => {
