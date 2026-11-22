@@ -3,128 +3,143 @@
 ## 1. Corporate Identity & Verified Entity Details
 
 - **Entity Name**: HMG Global Business Solutions SARL
+- **Legal Form**: Société à Responsabilité Limitée (SARL) under Djiboutian law (ODPIC registration records available upon official request)
 - **Managing Director (Directeur Général)**: Hamza Mohamed Hassan
-- **Location**: Saline Ouest, Djibouti, République de Djibouti
-- **Primary Territory**: Republic of Djibouti (Port of Djibouti, free zones, construction sites, industrial zones) and the Djibouti–Ethiopia Corridor (Addis Ababa & regional Ethiopian sites)
+- **Headquarters**: Saline Ouest, Djibouti, Republic of Djibouti
+- **GeoCoordinates**: Latitude `11.588`, Longitude `43.145` (Djibouti City)
+- **Primary Territory & Corridor Coverage**:
+  - **Republic of Djibouti**: Port of Djibouti, Doraleh Multipurpose Port (DMP), Société de Gestion du Terminal à Conteneurs de Doraleh (SGTD), Djibouti International Free Zone (DIFTZ), PK12 / industrial zones, and construction sites.
+  - **Djibouti–Ethiopia Corridor**: Cross-border road haulage serving Dire Dawa, Adama, Modjo Dry Port, Addis Ababa, Hawassa, and regional Ethiopian industrial/infrastructure projects.
 - **Website**: https://hmgglobalgroup.com
 - **Primary Emails**: contact@hmgglobalgroup.com, hamza@hmgglobalgroup.com
 - **Telephone**: +253 77 29 24 96 / +253 77 57 68 05
-- **WhatsApp**: +253 77 57 68 05
-- **Business Hours**: Sunday to Thursday, 08:00–17:00 (Djibouti time, UTC+3)
-- **Languages**: French, English, Simplified Chinese, Amharic (አማርኛ)
+- **WhatsApp**: +253 77 57 68 05 (`https://wa.me/25377576805`)
+- **Business Hours**: Sunday to Thursday, 08:00–17:00 EAT (UTC+3, Djibouti time)
+- **Quote Response Target (SLA)**: Under 24 business hours
+- **Languages**: French (`fr`), English (`en`), Simplified Chinese (`zh-Hans`), Amharic (`am` / አማርኛ)
 - **Core Commitments**:
-  1. **Écoute (Listening)**: Precise understanding of client requirements.
-  2. **Réactivité (Responsiveness)**: Fast response under 24 business hours.
-  3. **Clarté (Clarity)**: Transparent commercial offers specifying included services and applicable charges.
-  4. **Suivi (Follow-up)**: End-to-end operational tracking through final delivery.
+  1. **Écoute (Listening)**: Precise understanding of client specifications and operational constraints.
+  2. **Réactivité (Responsiveness)**: Commercial and operational responses within 24 business hours.
+  3. **Clarté (Clarity)**: Transparent offers detailing included services, Incoterms, and applicable fees.
+  4. **Suivi (Follow-up)**: Single-point-of-contact tracking through final handover.
 
 ---
 
 ## 2. Pole 1 — Logistique & Transport (https://hmgglobalgroup.com/logistique)
 
-End-to-end management of import, export, and transit operations from origin to final destination.
+End-to-end coordination of import, export, and transit cargo from origin to agreed final delivery site.
 
 ### 10 Logistics Prestations
-1. **Fret maritime (Maritime Freight)**: Import and export shipments in Full Container Load (FCL, 20ft and 40ft containers), Less than Container Load (LCL / groupage), conventional breakbulk cargo, and bulk cargo.
-2. **Fret aérien (Air Freight)**: Air cargo shipping tailored to cargo characteristics and urgent delivery timelines.
-3. **Transport routier (Road Transport)**: Containerized and conventional cargo haulage, especially along the Djibouti–Ethiopia corridor, directly to client warehouses, construction sites, industrial sites, or free zones.
-4. **Transit et formalités (Transit & Formalities)**: Documentary tracking and coordination of transit formalities required for cargo routing. Note: regulated transit and customs brokerage activities are executed through duly licensed partners.
-5. **Opérations portuaires (Port Operations)**: Coordination of vessel arrival, port handling, processing, and port exit clearance.
-6. **Chargement et déchargement (Loading & Unloading)**: Cargo loading, unloading, and transfers adapted to packaging and dimensions.
-7. **Manutention (Handling)**: Lifting, moving, and specialized cargo manipulation.
-8. **Stockage et entreposage (Storage & Warehousing)**: Temporary storage solutions and inventory movement planning prior to onward transport or delivery.
-9. **Livraison et distribution (Delivery & Distribution)**: Last-mile delivery to warehouses, job sites, industrial facilities, free zones, and agreed destinations.
-10. **Véhicules et équipements (Vehicles & Equipment)**: Transport of vehicles, heavy machinery, and industrial equipment according to dimensions and operational constraints.
+1. **Fret maritime (Maritime Freight)**: Import and export shipments in Full Container Load (FCL, 20ft and 40ft/High Cube containers), Less than Container Load (LCL / groupage), conventional breakbulk cargo, and bulk cargo.
+2. **Fret aérien (Air Freight)**: Express air cargo routing for urgent shipments, critical spare parts, and time-sensitive parcels.
+3. **Transport routier (Road Transport)**: Container chassis and flatbed haulage across Djibouti and the Djibouti–Ethiopia corridor directly to client warehouses, factories, job sites, or free zones.
+4. **Transit et formalités (Transit & Formalities)**: Complete documentary preparation and coordination. *Regulatory note: regulated transit and customs brokerage activities in Djibouti are executed exclusively through duly licensed partners coordinated by HMG Global Business Solutions.*
+5. **Opérations portuaires (Port Operations)**: Vessel call coordination, unloading supervision, tallying, and port exit clearance at Port of Djibouti terminals.
+6. **Chargement et déchargement (Loading & Unloading)**: Container stuffing, stripping, and cargo transfers matched to dimensions and packaging.
+7. **Manutention (Handling)**: Heavy lifting, quayside handling, and specialized manipulation for heavy or out-of-gauge cargo.
+8. **Stockage et entreposage (Storage & Warehousing)**: Temporary yard/warehouse storage and inventory flow management prior to onward dispatch.
+9. **Livraison et distribution (Delivery & Distribution)**: Final-mile delivery to job sites, factories, warehouses, and free zones on agreed schedules.
+10. **Véhicules et équipements (Vehicles & Equipment)**: Transport of vehicles, trucks, heavy machinery, and industrial equipment with tailored lashing and securing.
 
 ### Cargo Types Handled
-- **Conteneurs (Containers)**: 20 ft and 40 ft containers (FCL & LCL consolidation).
-- **Bulk (Marchandises en vrac)**: Volume-adapted loading and discharge logistics.
-- **Breakbulk (Marchandises conventionnelles)**: Steel, pipes/tubes, machinery, crates, and out-of-gauge cargo shipped outside containers.
+- **Conteneurs (Containers)**: 20 ft and 40 ft / HC containers (FCL & LCL consolidation).
+- **Bulk (Marchandises en vrac)**: Volume-adapted loading and discharge logistics via hoppers, dump trucks, and port silos.
+- **Breakbulk (Marchandises conventionnelles)**: 12 m steel bars, pipes/tubes, machinery, crates, and out-of-gauge cargo shipped outside containers on reinforced flatbeds.
 - **Acier et matériaux (Steel & Materials)**, **Équipements (Equipment)**, **Véhicules (Vehicles)**.
 
 ### 5-Step Operational Method
-1. Étude de votre besoin (Needs assessment)
-2. Proposition et devis (Commercial proposal & quote)
-3. Organisation de l’expédition (Shipment organization)
-4. Transport et opérations à destination (Transport & destination port/transit operations)
-5. Livraison et suivi (Final delivery & tracking)
+1. **Étude de votre besoin**: Cargo, route, lead-time, and constraint analysis.
+2. **Proposition et devis**: Detailed offer specifying included services, pricing, and schedule.
+3. **Organisation de l’expédition**: Transport booking, document verification, and stakeholder alignment.
+4. **Transport et opérations à destination**: Port discharge, transit coordination, and corridor transit.
+5. **Livraison et suivi**: Final handover at agreed site with ongoing progress reporting.
 
 ---
 
 ## 3. Pole 2 — Sourcing & Négoce (https://hmgglobalgroup.com/sourcing)
 
-International product sourcing, supplier qualification, commercial negotiation, supply management, and delivery coordination to Djibouti.
+International product sourcing, supplier vetting, commercial negotiation, supply coordination, and delivery to Djibouti.
 
 ### 6 Sourcing Prestations
-1. **Recherche fournisseurs**: Identifying reliable partners and compliant products matching client specifications.
-2. **Sélection des fabricants**: Selecting manufacturing sources matched to volume, lead time, and quality standards.
-3. **Négociation des conditions**: Securing optimal purchasing, payment, and delivery terms under CIF, CFR, and FOB Incoterms.
-4. **Vente et fourniture**: Issuing clear commercial offers for requested goods.
-5. **Approvisionnement & suivi**: Managing purchase orders, production readiness, and tracking through reception in Djibouti.
-6. **Acheminement et livraison**: Seamless transport to the final destination in coordination with the Logistics & Transport division of HMG Global Business Solutions.
+1. **Recherche fournisseurs**: Identifying vetted manufacturers and compliant product sources.
+2. **Sélection des fabricants**: Evaluating production capacity against tonnage, quality standards, and deadlines.
+3. **Négociation des conditions**: Negotiating commercial pricing, payment terms, and Incoterms (CIF, CFR, FOB).
+4. **Vente et fourniture**: Issuing clear itemized commercial offers.
+5. **Approvisionnement & suivi**: Order tracking, pre-shipment inspection coordination, and reception management in Djibouti.
+6. **Acheminement et livraison**: Integrated haulage to final site with the Logistics & Transport pole.
 
 ### Product & Material Families
-- **Aciers & produits sidérurgiques (Steel & Steel Products)**: Barres d’acier (steel bars), fers à béton HA (high-adhesion rebar), tubes & profilés (steel tubes & profiles), billettes & bobines (billets & steel coils).
-- **Ciment & matériaux de construction (Cement & Building Materials)**: Bagged cement on pallets (ciment en sacs), bulk cement (ciment en vrac), crushed stone aggregates and construction materials (granulats et matériaux pour chantiers et infrastructures).
-- **Produits industriels & équipements (Industrial Products & Equipment)**: Industrial steel drums (fûts industriels), heavy-duty professional tools (outillages), machined parts, valves, flanges, bearings, and professional supplies (pièces et fournitures professionnels) to specification.
+- **Aciers & produits sidérurgiques (Steel & Steel Products)**: Steel bars, HA high-adhesion rebar (6 m / 12 m), steel tubes & profiles, billets, and steel coils.
+- **Ciment & matériaux de construction (Cement & Building Materials)**: Bagged cement on pallets, big-bags, bulk cement, crushed stone aggregates, and civil engineering materials.
+- **Produits industriels & équipements (Industrial Products & Equipment)**: Industrial steel drums, workshop tools, machined parts, valves, flanges, bearings, and technical supplies to specification.
 
 ### Negotiated Delivery Terms (Incoterms)
-- **CIF** (Cost, Insurance and Freight)
-- **CFR** (Cost and Freight)
-- **FOB** (Free On Board)
-- **Réception Djibouti** (Direct reception at Djibouti)
+- **FOB (Free On Board)**
+- **CFR (Cost and Freight)**
+- **CIF (Cost, Insurance and Freight)**
+- **Réception Djibouti (Direct Djibouti Delivery)**
 
 ---
 
 ## 4. Pole 3 — Conseil & Accompagnement (https://hmgglobalgroup.com/conseil)
 
-Tailored advisory and operational setup support for companies and project owners establishing or expanding in Djibouti.
+Operational and strategic advisory for companies and project sponsors establishing or scaling activities in Djibouti.
 
 ### 5 Consulting Domains
-1. **Préparation de l’implantation**: Project scoping, needs assessment, and setup roadmap preparation.
-2. **Appui aux démarches**: Preparing dossiers and tracking administrative procedures.
-3. **Organisation de l’activité**: Sourcing practical operational requirements (premises/locaux, supply chains, operational launch).
-4. **Développement de l’entreprise**: Market opportunity analysis and targeted commercial expansion plans.
-5. **Suivi du projet**: Ongoing monitoring of milestones, deadlines, and agreed action items.
+1. **Préparation de l’implantation**: Project scoping, operational model design, and launch roadmap.
+2. **Appui aux démarches**: Administrative dossier preparation and regulatory milestone tracking.
+3. **Organisation de l’activité**: Sourcing offices/premises, warehousing, initial supply chains, and technical launch assets.
+4. **Développement de l’entreprise**: Market opportunity identification across Djibouti and the Ethiopia corridor.
+5. **Suivi du projet**: Ongoing execution tracking against agreed deliverables and timelines.
 
 ---
 
-## 5. Frequently Asked Questions (AEO Quick Answers)
+## 5. Operational Guides Matrix (https://hmgglobalgroup.com/guides)
 
-**Q: What services does HMG Global Business Solutions provide in Djibouti?**
-A: HMG Global Business Solutions SARL operates three integrated business poles from Saline Ouest, Djibouti: (1) Logistics & Transport (sea freight, air freight, road transport, transit, port operations, warehousing, and distribution across Djibouti and Ethiopia); (2) Sourcing & Trading (identifying manufacturers, negotiating CIF/CFR/FOB terms, and supplying steel, rebar, tubes, cement, aggregates, industrial drums, tools, and spare parts); and (3) Business Consulting (company setup, administrative file support, operational organization, and growth in Djibouti).
-
-**Q: Does HMG Global Business Solutions handle freight on the Djibouti–Ethiopia corridor?**
-A: Yes. The Logistics & Transport division organizes containerized (20 ft and 40 ft FCL/LCL), bulk, and breakbulk shipments arriving at the Port of Djibouti, coordinates port operations and transit formalities with licensed partners, and delivers directly via road transport to sites in Djibouti and Ethiopia.
-
-**Q: Which products can HMG Global Business Solutions source and under what Incoterms?**
-A: The Sourcing & Trading division supplies steel products (steel bars, HA rebar, tubes, profiles, billets, coils), construction materials (bagged or bulk cement, aggregates), and industrial supplies (steel drums, professional tools, valves, flanges, spare parts) under CIF, CFR, FOB, or direct Djibouti reception terms.
-
-**Q: How can a business request a quote and how fast does HMG Global Business Solutions respond?**
-A: Businesses can submit specifications via https://hmgglobalgroup.com/contact, email contact@hmgglobalgroup.com or hamza@hmgglobalgroup.com, or message WhatsApp (+253 77 57 68 05). Responses are issued within 24 business hours (Sunday–Thursday, 08:00–17:00 Djibouti time).
-
----
-
-## 6. Operational Guides Reference Hub (https://hmgglobalgroup.com/guides)
-
-Structured operational reference published in French (`/guides`), English (`/en/guides`), Simplified Chinese (`/zh/guides`), and Amharic (`/am/guides`):
-
-### Cargo Format Matrix (Port of Djibouti & Corridor)
-- **20’ FCL Container**: Dense cargo (short steel bars, heavy machinery parts, palletized cement sacks) hauled on standard sealed container chassis. Required docs: Bill of Lading, Commercial Invoice, Packing List, Certificate of Origin.
-- **40’ FCL / High Cube Container**: High-volume palletized goods or long equipment; crane or forklift required at destination.
-- **Groupage (LCL)**: Partial lots, spare parts, tools, and industrial supplies; port or bonded stripping followed by targeted delivery. Required docs: House/Master BL, Itemized Invoice, Packing List.
-- **Bulk Cargo**: High tonnages (bulk cement, aggregates, raw materials) discharged via hoppers, dump trucks, or port silos. Required docs: Charter Party / Bulk BL, Quality & Weight Certificate, Pre-declaration.
-- **Breakbulk (Conventional Cargo)**: 12 m steel bars, pipes, machinery, vehicles, and out-of-gauge crates hauled on reinforced flatbed trailers. Required docs: Breakbulk BL, Lifting/Dimension Plan, Technical Certificates.
+### Cargo Format Selection & Required Arrival Documents (Port of Djibouti)
+| Format | Cargo Profile | Handling / Equipment | Core Required Documents |
+| :--- | :--- | :--- | :--- |
+| **20' FCL Container** | Dense cargo: short steel bars, heavy machinery parts, palletized cement bags | Standard road container chassis, origin seal | Bill of Lading, Commercial Invoice, Packing List, Certificate of Origin |
+| **40' FCL / HC Container** | High-volume palletized goods, long equipment | 40' / High Cube chassis, crane or forklift at site | Bill of Lading, Commercial Invoice, Packing List, Certificate of Origin |
+| **Groupage (LCL)** | Partial lots, spare parts, tools, industrial supplies | Port or dedicated zone stripping + targeted delivery | House/Master BL, Itemized Invoice, Packing List |
+| **Bulk (Vrac)** | High tonnages: bulk cement, aggregates, raw materials | Hoppers, tippers, or port silos | Charter Party / Bulk BL, Quality & Weight Certificate, Pre-declaration |
+| **Breakbulk** | 12 m steel bars, pipes, machinery, vehicles, out-of-gauge crates | Reinforced flatbed trailers, port cranes, specialized lashing | Breakbulk BL, Lifting/Dimension Plan, Technical Certificates |
 
 ### Incoterms Comparison for Djibouti Buyers
-- **FOB (Free On Board)**: Ocean freight and insurance arranged/paid by the buyer or HMG Global Business Solutions; risk transfers on board vessel at loading port; ideal to control freight rates and consolidate suppliers.
-- **CFR (Cost & Freight)**: Main ocean freight paid to Port of Djibouti; cargo insurance covered by buyer; risk transfers at loading port.
-- **CIF (Cost, Insurance & Freight)**: Main ocean freight and minimum cargo insurance paid by seller to Port of Djibouti.
-- **Djibouti Delivery (Réception Djibouti)**: End-to-end sourcing, shipping, and handover coordinated by HMG Global Business Solutions as a single point of contact to agreed reception in Djibouti.
+| Term | Main Sea Freight | Cargo Insurance | Risk Transfer | Best Fit in Djibouti |
+| :--- | :--- | :--- | :--- | :--- |
+| **FOB** | Arranged & paid by buyer / HMG Global Business Solutions | Paid by buyer | On board vessel at loading port | Buyers optimizing freight rates & supplier consolidation |
+| **CFR** | Paid to Port of Djibouti | Covered by buyer | On board vessel at loading port | Buyers holding existing cargo insurance policies |
+| **CIF** | Paid to Port of Djibouti | Minimum cover included by seller | On board vessel at loading port | Turnkey port-to-port industrial orders |
+| **Réception Djibouti** | Coordinated end-to-end by HMG Global Business Solutions | Per commercial contract | At agreed delivery handover in Djibouti | Companies seeking a single point of contact to Djibouti reception |
 
-### Essential Multilingual URLs
+---
+
+## 6. Frequently Asked Questions (Verified AEO Q&As)
+
+**Q: What services does HMG Global Business Solutions offer in Djibouti?**
+A: HMG Global Business Solutions SARL operates three complementary divisions from Saline Ouest, Djibouti: Logistics & Transport (sea/air freight, road transport, transit coordination, port operations, handling, warehousing, delivery), Sourcing & Trading (steel, rebar, cement, aggregates, industrial supplies under CIF/CFR/FOB/Djibouti delivery), and Business Consulting & Support for company implantation and growth.
+
+**Q: How does transport work on the Djibouti–Ethiopia corridor?**
+A: Upon vessel arrival at the Port of Djibouti, HMG Global Business Solutions coordinates documentary pre-alert, port discharge and release, customs/transit formalities with licensed forwarding partners, loading onto container chassis or flatbeds, and road transport directly to sites in Djibouti or Ethiopia (e.g., Modjo, Adama, Addis Ababa, Dire Dawa).
+
+**Q: Are both LCL consolidation and FCL containers available?**
+A: Yes. Maritime freight covers 20 ft and 40 ft full container loads (FCL), import/export LCL consolidation, bulk cargo, and conventional breakbulk cargo.
+
+**Q: Which essential documents are needed before a vessel arrives at the Port of Djibouti?**
+A: The four core pre-arrival documents are the Bill of Lading (BL), Commercial Invoice, detailed Packing List (net/gross weight, package count, dimensions), and Certificate of Origin, plus insurance or inspection certificates where applicable.
+
+**Q: What materials and industrial products can HMG Global Business Solutions supply?**
+A: Steel bars, HA rebar (6 m / 12 m), tubes and profiles, billets and coils, bagged or bulk cement, aggregates, and industrial supplies (steel drums, workshop tools, valves, flanges, bearings, spare parts).
+
+**Q: How do I request a quote and what is the response time?**
+A: Submit specs via https://hmgglobalgroup.com/contact (attaching PDF/JPG/XLSX technical sheets), email `contact@hmgglobalgroup.com` or `hamza@hmgglobalgroup.com`, or message WhatsApp `+253 77 57 68 05`. Responses are sent within 24 business hours (Sunday–Thursday, 08:00–17:00 EAT).
+
+---
+
+## 7. Multilingual URL Map
+
 - **FR**: `/`, `/logistique`, `/sourcing`, `/conseil`, `/guides`, `/a-propos`, `/contact`, `/mentions-legales`
 - **EN**: `/en`, `/en/logistics`, `/en/sourcing`, `/en/consulting`, `/en/guides`, `/en/about`, `/en/contact`, `/en/legal`
 - **ZH**: `/zh`, `/zh/logistics`, `/zh/sourcing`, `/zh/consulting`, `/zh/guides`, `/zh/about`, `/zh/contact`, `/zh/legal`
 - **AM**: `/am`, `/am/logistics`, `/am/sourcing`, `/am/consulting`, `/am/guides`, `/am/about`, `/am/contact`, `/am/legal`
-

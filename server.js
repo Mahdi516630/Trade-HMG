@@ -120,6 +120,12 @@ app.use((req, res, next) => {
 
   const query = req.url.slice(req.path.length);
 
+  if (lower === '/ch') {
+    return res.redirect(301, '/zh' + query);
+  }
+  if (lower.startsWith('/ch/')) {
+    return res.redirect(301, '/zh' + req.path.slice(3) + query);
+  }
   if (lower === '/index' || lower === '/index.html') {
     return res.redirect(301, '/' + query);
   }
@@ -220,6 +226,8 @@ for (const [route, fileName] of Object.entries(CLEAN_ROUTES)) {
     }
     if (route === '/merci' || route === '/en/thanks' || route === '/zh/thanks' || route === '/am/thanks') {
       res.setHeader('X-Robots-Tag', 'noindex, nofollow');
+    } else {
+      res.setHeader('Link', '<https://hmgglobalgroup.com/llms.txt>; rel="alternate"; type="text/plain"');
     }
     res.setHeader('Cache-Control', 'public, max-age=300, must-revalidate');
     res.sendFile(target);

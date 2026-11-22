@@ -72,6 +72,10 @@
       titleEl.textContent = T(activeKind === 'logo' ? 'Logo HMG Global Business Solutions' : 'Carte de visite officielle');
     }
     if (closeBtn) closeBtn.setAttribute('aria-label', T('Fermer'));
+    var addrEl = modal.querySelector('.zoom-addr');
+    if (addrEl) {
+      addrEl.textContent = T('HMG Global Business Solutions SARL — Saline Ouest, Djibouti');
+    }
     if (actionLink) {
       if (activeKind === 'card') {
         actionLink.href = currentContactHref();
@@ -122,7 +126,7 @@
         '</div>' +
         '<div class="zoom-stage"><img src="" alt=""></div>' +
         '<div class="zoom-foot">' +
-          '<span>HMG Global Business Solutions SARL — Saline Ouest, Djibouti</span>' +
+          '<span class="zoom-addr"></span>' +
           '<a class="zoom-home" href="/"></a>' +
         '</div>' +
       '</div>';

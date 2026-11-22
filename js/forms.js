@@ -89,7 +89,7 @@
     if (nextIn && location.origin && location.origin !== 'null') {
       var p = location.pathname || '/';
       var nextPath = /^\/en(\/|$)/.test(p) ? '/en/thanks' : /^\/zh(\/|$)/.test(p) ? '/zh/thanks' : /^\/am(\/|$)/.test(p) ? '/am/thanks' : '/merci';
-      nextIn.value = location.href.replace(/[^\/]*([?#].*)?$/, 'merci.html'); // GitHub Pages : page merci du même dossier
+      nextIn.value = location.origin + nextPath;
     }
     var file = f.querySelector('.file-in');
     if (file) file.addEventListener('change', function () {

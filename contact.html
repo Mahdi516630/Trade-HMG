@@ -14,6 +14,11 @@
 <link rel="alternate" hreflang="am" href="https://hmgglobalgroup.com/am/contact">
 <link rel="alternate" hreflang="x-default" href="https://hmgglobalgroup.com/contact">
 <link rel="alternate" type="text/plain" title="LLMs Context" href="https://hmgglobalgroup.com/llms.txt">
+<link rel="alternate" type="text/plain" title="LLMs Full Knowledge Base" href="https://hmgglobalgroup.com/llms-full.txt">
+<meta name="geo.region" content="DJ-DJ">
+<meta name="geo.placename" content="Djibouti">
+<meta name="geo.position" content="11.588;43.145">
+<meta name="ICBM" content="11.588, 43.145">
 <link rel="icon" href="favicon.ico?v=20261122e" sizes="48x48">
 <link rel="icon" type="image/png" sizes="48x48" href="media/favicon-48.png?v=20261122e">
 <link rel="icon" type="image/png" sizes="96x96" href="media/favicon-96.png?v=20261122e">
@@ -45,31 +50,66 @@
   "@graph": [
     {
       "@type": "ContactPage",
+      "@id": "https://hmgglobalgroup.com/contact#webpage",
       "name": "Contact & devis | HMG Global Business Solutions – Djibouti",
       "url": "https://hmgglobalgroup.com/contact",
       "inLanguage": "fr",
-      "dateModified": "2026-11-20",
+      "dateModified": "2026-11-22",
       "description": "Présentez-nous votre besoin : transport de marchandise, achat de produit ou projet d’implantation à Djibouti.",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".lead", ".faq-item summary", ".faq-item p"]
+      },
       "mainEntity": {
-        "@type": "Organization",
+        "@type": ["Organization", "LocalBusiness"],
+        "@id": "https://hmgglobalgroup.com/#organization",
         "name": "HMG Global Business Solutions SARL",
         "url": "https://hmgglobalgroup.com/",
         "telephone": ["+25377292496", "+25377576805"],
         "email": ["contact@hmgglobalgroup.com", "hamza@hmgglobalgroup.com"],
-        "contactPoint": {
-          "@type": "ContactPoint",
-          "name": "Hamza Mohamed Hassan",
-          "jobTitle": "Managing Director",
-          "telephone": "+25377292496",
-          "email": "hamza@hmgglobalgroup.com",
-          "contactType": "sales",
-          "availableLanguage": ["fr", "en", "zh", "am"]
-        },
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "name": "Hamza Mohamed Hassan",
+            "jobTitle": "Managing Director",
+            "telephone": "+25377292496",
+            "email": "hamza@hmgglobalgroup.com",
+            "contactType": "sales",
+            "availableLanguage": ["fr", "en", "zh", "am"]
+          },
+          {
+            "@type": "ContactPoint",
+            "telephone": "+25377576805",
+            "email": "contact@hmgglobalgroup.com",
+            "contactType": "customer service",
+            "url": "https://wa.me/25377576805",
+            "availableLanguage": ["fr", "en", "zh", "am"]
+          }
+        ],
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "Saline Ouest",
           "addressLocality": "Djibouti",
+          "addressRegion": "Djibouti",
           "addressCountry": "DJ"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 11.588,
+          "longitude": 43.145
+        },
+        "hasMap": "https://www.google.com/maps/search/?api=1&query=11.588,43.145",
+        "areaServed": [
+          { "@type": "Country", "name": "Djibouti" },
+          { "@type": "Country", "name": "Ethiopia" },
+          { "@type": "Place", "name": "Port de Djibouti & Zone Franche (DIFTZ)" },
+          { "@type": "Place", "name": "Corridor Djibouti–Éthiopie" }
+        ],
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
+          "opens": "08:00",
+          "closes": "17:00"
         }
       }
     },
@@ -78,6 +118,35 @@
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://hmgglobalgroup.com/" },
         { "@type": "ListItem", "position": 2, "name": "Contact & devis", "item": "https://hmgglobalgroup.com/contact" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Sous quel délai HMG Global Business Solutions répond-elle à une demande de devis ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "L’équipe répond sous 24 heures ouvrées (du dimanche au jeudi, de 08:00 à 17:00, heure de Djibouti). Pour une urgence opérationnelle, un échange direct est possible sur WhatsApp au +253 77 57 68 05."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quels documents peut-on joindre dans le formulaire de contact ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vous pouvez joindre jusqu’à 10 Mo de pièces jointes (PDF, JPG, PNG, Excel) : connaissement, facture commerciale, liste de colisage, fiche technique, plan coté ou photographie du produit recherché."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Peut-on combiner logistique, sourcing et conseil dans une même demande ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui. HMG Global Business Solutions SARL agit comme interlocuteur unique à Djibouti et peut coordonner l’approvisionnement produit, le passage portuaire au Port de Djibouti, le transport vers l’Éthiopie et l’accompagnement d’implantation."
+          }
+        }
       ]
     }
   ]
@@ -218,6 +287,30 @@
     </aside>
   </div>
 </main>
+
+<section class="sec sec-soft">
+  <div class="container rows-split">
+    <div>
+      <span class="eyebrow dark">Questions fréquentes</span>
+      <h2 class="h2">Réponses pratiques avant de nous contacter.</h2>
+      <p class="muted-p">Délais de réponse, documents utiles et canaux directs à Djibouti.</p>
+    </div>
+    <div class="faq-list">
+      <details class="faq-item" open>
+        <summary>Sous quel délai HMG Global Business Solutions répond-elle à une demande de devis ?</summary>
+        <p>L’équipe répond sous 24 heures ouvrées (du dimanche au jeudi, de 08:00 à 17:00, heure de Djibouti). Pour une urgence opérationnelle, un échange direct est possible sur WhatsApp au +253 77 57 68 05.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Quels documents peut-on joindre dans le formulaire de contact ?</summary>
+        <p>Vous pouvez joindre jusqu’à 10 Mo de pièces jointes (PDF, JPG, PNG, Excel) : connaissement, facture commerciale, liste de colisage, fiche technique, plan coté ou photographie du produit recherché.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Peut-on combiner logistique, sourcing et conseil dans une même demande ?</summary>
+        <p>Oui. HMG Global Business Solutions SARL agit comme interlocuteur unique à Djibouti et peut coordonner l’approvisionnement produit, le passage portuaire au Port de Djibouti, le transport vers l’Éthiopie et l’accompagnement d’implantation.</p>
+      </details>
+    </div>
+  </div>
+</section>
 
 
 <footer class="footer">

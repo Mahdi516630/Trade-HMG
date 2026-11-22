@@ -14,6 +14,11 @@
 <link rel="alternate" hreflang="am" href="https://hmgglobalgroup.com/am/consulting">
 <link rel="alternate" hreflang="x-default" href="https://hmgglobalgroup.com/conseil">
 <link rel="alternate" type="text/plain" title="LLMs Context" href="https://hmgglobalgroup.com/llms.txt">
+<link rel="alternate" type="text/plain" title="LLMs Full Knowledge Base" href="https://hmgglobalgroup.com/llms-full.txt">
+<meta name="geo.region" content="DJ-DJ">
+<meta name="geo.placename" content="Djibouti">
+<meta name="geo.position" content="11.588;43.145">
+<meta name="ICBM" content="11.588, 43.145">
 <link rel="icon" href="favicon.ico?v=20261122e" sizes="48x48">
 <link rel="icon" type="image/png" sizes="48x48" href="media/favicon-48.png?v=20261122e">
 <link rel="icon" type="image/png" sizes="96x96" href="media/favicon-96.png?v=20261122e">
@@ -44,6 +49,19 @@
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "WebPage",
+      "@id": "https://hmgglobalgroup.com/conseil#webpage",
+      "url": "https://hmgglobalgroup.com/conseil",
+      "name": "Conseil & Accompagnement | HMG Global Business Solutions – Djibouti",
+      "inLanguage": "fr",
+      "dateModified": "2026-11-22",
+      "isPartOf": { "@id": "https://hmgglobalgroup.com/#website" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".lead", ".rows5 h3", ".rows5 p", ".faq-item summary", ".faq-item p"]
+      }
+    },
+    {
       "@type": "Service",
       "serviceType": "Conseil & Accompagnement",
       "name": "Conseil & Accompagnement d’entreprises à Djibouti",
@@ -51,10 +69,16 @@
       "description": "HMG Global Business Solutions accompagne les entreprises et les porteurs de projets dans la préparation de leur implantation, leurs démarches et le développement de leur activité à Djibouti.",
       "provider": {
         "@type": "Organization",
+        "@id": "https://hmgglobalgroup.com/#organization",
         "name": "HMG Global Business Solutions SARL",
         "url": "https://hmgglobalgroup.com/"
       },
-      "areaServed": ["DJ", "ET"],
+      "areaServed": [
+        { "@type": "Country", "name": "Djibouti" },
+        { "@type": "Country", "name": "Ethiopia" },
+        { "@type": "Place", "name": "Port de Djibouti & Zone Franche (DIFTZ)" },
+        { "@type": "Place", "name": "Corridor Djibouti–Éthiopie" }
+      ],
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
         "name": "Domaines d’intervention Conseil HMG Global Business Solutions",

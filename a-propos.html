@@ -14,6 +14,11 @@
 <link rel="alternate" hreflang="am" href="https://hmgglobalgroup.com/am/about">
 <link rel="alternate" hreflang="x-default" href="https://hmgglobalgroup.com/a-propos">
 <link rel="alternate" type="text/plain" title="LLMs Context" href="https://hmgglobalgroup.com/llms.txt">
+<link rel="alternate" type="text/plain" title="LLMs Full Knowledge Base" href="https://hmgglobalgroup.com/llms-full.txt">
+<meta name="geo.region" content="DJ-DJ">
+<meta name="geo.placename" content="Djibouti">
+<meta name="geo.position" content="11.588;43.145">
+<meta name="ICBM" content="11.588, 43.145">
 <link rel="icon" href="favicon.ico?v=20261122e" sizes="48x48">
 <link rel="icon" type="image/png" sizes="48x48" href="media/favicon-48.png?v=20261122e">
 <link rel="icon" type="image/png" sizes="96x96" href="media/favicon-96.png?v=20261122e">
@@ -45,15 +50,24 @@
   "@graph": [
     {
       "@type": "AboutPage",
+      "@id": "https://hmgglobalgroup.com/a-propos#webpage",
       "name": "À propos | HMG Global Business Solutions – Djibouti",
       "url": "https://hmgglobalgroup.com/a-propos",
       "inLanguage": "fr",
-      "dateModified": "2026-11-20",
+      "dateModified": "2026-11-22",
       "description": "HMG Global Business Solutions accompagne les entreprises dans leurs opérations logistiques, leurs approvisionnements et leurs projets d’implantation ou de développement.",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".about-lead", ".about-text p", ".engage .w"]
+      },
       "mainEntity": {
-        "@type": "Organization",
+        "@type": ["Organization", "LocalBusiness"],
+        "@id": "https://hmgglobalgroup.com/#organization",
         "name": "HMG Global Business Solutions SARL",
         "url": "https://hmgglobalgroup.com/",
+        "logo": "https://hmgglobalgroup.com/public/assets/aistudio/HMG_-_LOGO-01_3cacb87a.png",
+        "telephone": ["+25377292496", "+25377576805"],
+        "email": "contact@hmgglobalgroup.com",
         "founder": {
           "@type": "Person",
           "name": "Hamza Mohamed Hassan",
@@ -63,7 +77,26 @@
           "@type": "PostalAddress",
           "streetAddress": "Saline Ouest",
           "addressLocality": "Djibouti",
+          "addressRegion": "Djibouti",
           "addressCountry": "DJ"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 11.588,
+          "longitude": 43.145
+        },
+        "hasMap": "https://www.google.com/maps/search/?api=1&query=11.588,43.145",
+        "areaServed": [
+          { "@type": "Country", "name": "Djibouti" },
+          { "@type": "Country", "name": "Ethiopia" },
+          { "@type": "Place", "name": "Port de Djibouti & Zone Franche (DIFTZ)" },
+          { "@type": "Place", "name": "Corridor Djibouti–Éthiopie" }
+        ],
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
+          "opens": "08:00",
+          "closes": "17:00"
         }
       }
     },

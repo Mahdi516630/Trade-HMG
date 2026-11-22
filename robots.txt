@@ -6,6 +6,17 @@ Disallow: /en/thanks
 Disallow: /zh/thanks
 Disallow: /am/thanks
 
+User-agent: Googlebot
+Allow: /
+Disallow: /merci
+Disallow: /merci.html
+Disallow: /en/thanks
+Disallow: /zh/thanks
+Disallow: /am/thanks
+
+User-agent: Googlebot-Image
+Allow: /
+
 User-agent: GPTBot
 Allow: /
 Disallow: /merci
@@ -56,4 +67,5 @@ Disallow: /zh/thanks
 Disallow: /am/thanks
 
 Sitemap: https://hmgglobalgroup.com/sitemap.xml
-# LLMs knowledge base: https://hmgglobalgroup.com/llms.txt
+# LLMs summary: https://hmgglobalgroup.com/llms.txt
+# LLMs knowledge base: https://hmgglobalgroup.com/llms-full.txt

@@ -333,7 +333,12 @@ function mapUrlToLang(urlStr, lang, frToTarget) {
 
 function localizeJsonLd(obj, lang, dict, frToTarget) {
   if (Array.isArray(obj)) {
-    return obj.map((item) => localizeJsonLd(item, lang, dict, frToTarget));
+    return obj.map((item) => {
+      if (typeof item === 'string') {
+        return dict[normKey(item)] || mapUrlToLang(item, lang, frToTarget);
+      }
+      return localizeJsonLd(item, lang, dict, frToTarget);
+    });
   }
   if (!obj || typeof obj !== 'object') return obj;
 
@@ -348,7 +353,18 @@ function localizeJsonLd(obj, lang, dict, frToTarget) {
       continue;
     }
     if (typeof v === 'string') {
-      if (k === 'name' || k === 'headline' || k === 'description' || k === 'text' || k === 'serviceType' || k === 'caption') {
+      if (
+        k === 'name' ||
+        k === 'headline' ||
+        k === 'description' ||
+        k === 'text' ||
+        k === 'serviceType' ||
+        k === 'caption' ||
+        k === 'streetAddress' ||
+        k === 'addressLocality' ||
+        k === 'addressRegion' ||
+        k === 'jobTitle'
+      ) {
         const translated = dict[normKey(v)];
         out[k] = translated || mapUrlToLang(v, lang, frToTarget);
       } else {
@@ -386,6 +402,24 @@ function translateTextNodes($, rootEl, dict) {
 function buildLocalizedHtml(frHtml, page, lang, dict, frToTarget) {
   const $ = cheerio.load(frHtml, { decodeEntities: false });
   rewriteAssetPaths($, lang === 'fr' ? '' : '../');
+
+  $('link[rel="stylesheet"][href], script[src]').each((_, el) => {
+    const attr = el.name === 'link' ? 'href' : 'src';
+    const v = $(el).attr(attr);
+    if (v && v.includes('?v=20261122d')) {
+      $(el).attr(attr, v.replace('?v=20261122d', '?v=20261122g'));
+    }
+  });
+
+  $('.lang a[data-lang]').each((_, el) => {
+    const dl = $(el).attr('data-lang');
+    const isActive = dl === lang;
+    if (dl && page && page[dl]) {
+      $(el).attr('href', page[dl]);
+    }
+    $(el).toggleClass('on', isActive);
+    $(el).attr('aria-pressed', isActive ? 'true' : 'false');
+  });
 
   if (lang === 'fr') {
     $('script[type="application/ld+json"]').each((_, el) => {
@@ -467,23 +501,29 @@ function buildLocalizedHtml(frHtml, page, lang, dict, frToTarget) {
     if (tr) $(el).attr('href', m[1] + encodeURIComponent(tr));
   });
 
-  $('body a[href]').each((_, el) => {
-    if ($(el).closest('.lang').length) return;
-    const href = $(el).attr('href') || '';
-    if (!href.startsWith('/') || href.startsWith('//')) return;
-    const [pathAndQuery, hash] = href.split('#');
-    const [pathname, query] = pathAndQuery.split('?');
-    const mapped = frToTarget.get(pathname || '/');
-    if (mapped) {
-      $(el).attr('href', mapped + (query ? '?' + query : '') + (hash ? '#' + hash : ''));
+  $('link[rel="alternate"][type="text/plain"]').each((_, el) => {
+    const titleVal = $(el).attr('title');
+    if (titleVal && dict[normKey(titleVal)]) {
+      $(el).attr('title', dict[normKey(titleVal)]);
     }
   });
 
-  $('.lang a[data-lang]').each((_, el) => {
-    const dl = $(el).attr('data-lang');
-    const isActive = dl === lang;
-    $(el).toggleClass('on', isActive);
-    $(el).attr('aria-pressed', isActive ? 'true' : 'false');
+  $('input[name="_next"]').each((_, el) => {
+    const val = $(el).attr('value');
+    if (val) $(el).attr('value', mapUrlToLang(val, lang, frToTarget));
+  });
+
+  $('body a[href]').each((_, el) => {
+    if ($(el).closest('.lang').length) return;
+    const href = $(el).attr('href') || '';
+    if (!href || /^(https?:|mailto:|tel:|#|\/\/)/i.test(href)) return;
+    const [pathAndQuery, hash] = href.split('#');
+    const [rawPath, query] = pathAndQuery.split('?');
+    const normalizedPath = rawPath.startsWith('/') ? rawPath : '/' + rawPath.replace(/^\.\//, '');
+    const mapped = frToTarget.get(normalizedPath || '/') || frToTarget.get(rawPath);
+    if (mapped) {
+      $(el).attr('href', mapped + (query ? '?' + query : '') + (hash ? '#' + hash : ''));
+    }
   });
 
   $('script[type="application/ld+json"]').each((_, el) => {
@@ -564,9 +604,18 @@ export async function buildDist() {
     await fs.writeFile(path.join(DIST_DIR, 'js', entry.name), obfuscated, 'utf8');
   }
 
-  const frToEn = new Map(PAGES.map((p) => [p.fr, p.en]));
-  const frToZh = new Map(PAGES.map((p) => [p.fr, p.zh]));
-  const frToAm = new Map(PAGES.map((p) => [p.fr, p.am]));
+  const buildFrMap = (key) => {
+    const m = new Map();
+    for (const p of PAGES) {
+      m.set(p.fr, p[key]);
+      m.set('/' + p.file, p[key]);
+      m.set(p.file, p[key]);
+    }
+    return m;
+  };
+  const frToEn = buildFrMap('en');
+  const frToZh = buildFrMap('zh');
+  const frToAm = buildFrMap('am');
 
   for (const page of PAGES) {
     const htmlInput = await fs.readFile(path.join(__dirname, page.file), 'utf8');
