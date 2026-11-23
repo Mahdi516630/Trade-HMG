@@ -5,7 +5,7 @@
 - **Entity Name**: HMG Global Business Solutions SARL
 - **Legal Form**: Société à Responsabilité Limitée (SARL) under Djiboutian law (ODPIC registration records available upon official request)
 - **Managing Director (Directeur Général)**: Hamza Mohamed Hassan
-- **Headquarters**: Saline Ouest, Djibouti, Republic of Djibouti
+- **Headquarters**:  Djibouti, Republic of Djibouti
 - **GeoCoordinates**: Latitude `11.588`, Longitude `43.145` (Djibouti City)
 - **Primary Territory & Corridor Coverage**:
   - **Republic of Djibouti**: Port of Djibouti, Doraleh Multipurpose Port (DMP), Société de Gestion du Terminal à Conteneurs de Doraleh (SGTD), Djibouti International Free Zone (DIFTZ), PK12 / industrial zones, and construction sites.
@@ -118,7 +118,7 @@ Operational and strategic advisory for companies and project sponsors establishi
 ## 6. Frequently Asked Questions (Verified AEO Q&As)
 
 **Q: What services does HMG Global Business Solutions offer in Djibouti?**
-A: HMG Global Business Solutions SARL operates three complementary divisions from Saline Ouest, Djibouti: Logistics & Transport (sea/air freight, road transport, transit coordination, port operations, handling, warehousing, delivery), Sourcing & Trading (steel, rebar, cement, aggregates, industrial supplies under CIF/CFR/FOB/Djibouti delivery), and Business Consulting & Support for company implantation and growth.
+A: HMG Global Business Solutions SARL operates three complementary divisions from  Djibouti: Logistics & Transport (sea/air freight, road transport, transit coordination, port operations, handling, warehousing, delivery), Sourcing & Trading (steel, rebar, cement, aggregates, industrial supplies under CIF/CFR/FOB/Djibouti delivery), and Business Consulting & Support for company implantation and growth.
 
 **Q: How does transport work on the Djibouti–Ethiopia corridor?**
 A: Upon vessel arrival at the Port of Djibouti, HMG Global Business Solutions coordinates documentary pre-alert, port discharge and release, customs/transit formalities with licensed forwarding partners, loading onto container chassis or flatbeds, and road transport directly to sites in Djibouti or Ethiopia (e.g., Modjo, Adama, Addis Ababa, Dire Dawa).

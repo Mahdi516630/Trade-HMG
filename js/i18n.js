@@ -69,7 +69,7 @@
 "Logistique & transport, sourcing & négoce, conseil & accompagnement des entreprises. Basée à Djibouti.": "Logistics & transport, sourcing & trading, business consulting & support. Based in Djibouti.",
 "Demander un devis →": "Request a quote →",
 "WhatsApp : +253 77 57 68 05": "WhatsApp: +253 77 57 68 05",
-"Saline Ouest, Djibouti": "Saline West, Djibouti",
+" Djibouti": " Djibouti",
 "© 2026 HMG Global Business Solutions SARL. Tous droits réservés.": "© 2026 HMG Global Business Solutions SARL. All rights reserved.",
 "Mentions légales": "Legal notice",
 "HMG Global Business Solutions – accueil": "HMG Global Business Solutions – home",

@@ -74,8 +74,8 @@
     if (closeBtn) closeBtn.setAttribute('aria-label', T('Fermer'));
     var addrEl = modal.querySelector('.zoom-addr');
     if (addrEl) {
-      addrEl.textContent = T('HMG Global Business Solutions SARL — Saline Ouest, Djibouti');
-    }
+      addrEl.textContent = T('HMG Global Business Solutions SARL —  Djibouti');
+    } 
     if (actionLink) {
       if (activeKind === 'card') {
         actionLink.href = currentContactHref();

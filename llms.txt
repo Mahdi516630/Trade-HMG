@@ -2,13 +2,13 @@
 
 > Djibouti-based B2B logistics, international sourcing & trading, and business setup consulting partner serving the Republic of Djibouti and the Djibouti–Ethiopia corridor.
 
-HMG Global Business Solutions SARL (founded and led by Managing Director Hamza Mohamed Hassan in Saline Ouest, Djibouti) provides end-to-end import/export freight, port coordination, corridor road haulage, industrial product sourcing (steel, rebar, cement, aggregates, industrial supplies), and corporate implantation consulting in Djibouti.
+HMG Global Business Solutions SARL (founded and led by Managing Director Hamza Mohamed Hassan in  Djibouti) provides end-to-end import/export freight, port coordination, corridor road haulage, industrial product sourcing (steel, rebar, cement, aggregates, industrial supplies), and corporate implantation consulting in Djibouti.
 
 ## Verified Entity & Geographic Facts
 
 - **Legal Name**: HMG Global Business Solutions SARL (SARL under Djiboutian law, ODPIC-registered)
 - **Managing Director**: Hamza Mohamed Hassan
-- **Headquarters**: Saline Ouest, Djibouti, Republic of Djibouti
+- **Headquarters**:  Djibouti, Republic of Djibouti
 - **GeoCoordinates**: 11.588° N, 43.145° E
 - **Service Area**: Republic of Djibouti (Port of Djibouti, Doraleh Container Terminal / DMP, Djibouti International Free Zone – DIFTZ, industrial & construction sites) and Ethiopia (Djibouti–Ethiopia corridor: Dire Dawa, Adama, Modjo Dry Port, Addis Ababa, Hawassa)
 - **Languages Supported**: French (`fr`), English (`en`), Simplified Chinese (`zh-Hans`), Amharic (`am`)
@@ -19,7 +19,7 @@ HMG Global Business Solutions SARL (founded and led by Managing Director Hamza M
 - **Email**: contact@hmgglobalgroup.com | hamza@hmgglobalgroup.com
 - **Canonical Website**: https://hmgglobalgroup.com
 
-## Quick Answers (AEO Key Facts)
+## Quick Answers (AEO Key Facts) 
 
 - **Core Business Lines**: (1) Logistics & Transport, (2) Sourcing & Trading, (3) Business Setup Consulting & Support.
 - **Cargo Formats Handled**: 20' & 40' FCL containers, LCL groupage, bulk cargo, conventional breakbulk (12m steel bars, pipes, machinery, out-of-gauge crates), vehicles, and heavy equipment.
